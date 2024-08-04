@@ -1,0 +1,15 @@
+.arrow-left-2-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 1239px;
+  height: 300px;
+  position: absolute;
+  top: 5967px;
+  left: 19%;
+}
+
+@media screen and (max-width: 1200px) {
+  .arrow-left-2-container {
+    left: -4%;
+  }
+}

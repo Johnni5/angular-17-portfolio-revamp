@@ -1,0 +1,21 @@
+<section id="myreferences" class="myreferences-container">
+  <h2 class="fontSyne">References</h2>
+  <p class="fontOverpassNormal">
+    I thrive both independently and as part of a team.<br/> 
+    Here’s what my colleagues have to say about working with me.
+  </p>
+
+  <div class="myreferences-row">
+
+   <div class="myreferences-card-container">
+    <div class="myreferences-card" *ngFor="let card of references">
+      <img src="{{card.image}}" alt="">
+      <h3>{{card.name}}</h3>
+      <span>{{card.title}}</span>
+      <br/>
+      <p>{{card.description}}</p>
+    </div>
+   </div>
+
+  </div>
+</section>

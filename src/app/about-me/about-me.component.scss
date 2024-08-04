@@ -1,0 +1,19 @@
+.aboutme-container {
+  // margin-left: auto;
+  // margin-right: auto;
+  display: flex;
+  justify-content: center;
+  width: 1259px;
+  height: 681px;
+  position: absolute;
+  top: 927px;
+  left: 18%;
+  gap: 132px;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutme-container {
+    left: -3%;
+  }
+  
+}

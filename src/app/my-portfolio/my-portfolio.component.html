@@ -1,0 +1,71 @@
+<section id="portfolio" class="portfolio-container">  
+  <h2 class="fontSyne font-title">Portfolio</h2>
+  <br/>
+
+  <p class="fontOverpassNormal sub-p">
+    Explore a selection of my work here -<br/>
+     Interact with projects to see my skills in action.
+  </p>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <div class="portfolio-row" *ngFor="let project of projects; let i = index; trackBy: trackByFn">
+    <ng-container *ngIf="i % 2 === 0; else odd">
+      <section class="project-data-container">
+        <h2 class="fontSyne">{{ project.title }}</h2>
+        <div class="project-data-stack">
+          <h3 class="fontGreen fontOverpassNormal" *ngFor="let technology of project.stack">{{ technology }} |</h3>&nbsp;
+        </div>
+        <br/>
+        <p>
+          {{ project.description }}
+        </p>
+        <br/>
+        <div class="project-data-button-container">
+          <a [href]="project.linkGh" target="_blank">
+            <button class="project-data-button fontOverpassNormal">
+              Github
+            </button>
+          </a>
+          <a [href]="project.linkLi" target="_blank">
+            <button class="project-data-button fontOverpassNormal">
+              Live
+            </button>
+          </a>
+        </div>
+      </section>
+      <section>
+        <img class="portfolio-img" src="{{ project.image }}" alt="">
+      </section>
+    </ng-container>
+    <ng-template #odd>
+      <section>
+        <img class="portfolio-img" src="{{ project.image }}" alt="">
+      </section>
+      <section class="project-data-container">
+        <h2 class="fontSyne">{{ project.title }}</h2>
+        <div class="project-data-stack">
+          <h3 class="fontGreen fontOverpassNormal" *ngFor="let technology of project.stack">{{ technology }} |</h3>&nbsp;
+        </div>
+        <br/>
+        <p>
+          {{ project.description }}
+        </p>
+        <br/>
+        <div class="project-data-button-container">
+          <a [href]="project.linkGh" target="_blank">
+            <button class="project-data-button fontOverpassNormal">
+              Github
+            </button>
+          </a>
+          <a [href]="project.linkLi" target="_blank">
+            <button class="project-data-button fontOverpassNormal">
+              Live
+            </button>
+          </a>
+        </div>
+      </section>
+    </ng-template>
+  </div>
+</section>

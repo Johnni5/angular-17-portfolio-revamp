@@ -1,0 +1,29 @@
+<div class="contact-container">
+  <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" class="footer-form-container">
+
+    <!-- <div class="footer-input-area"> -->
+      
+    <label for="name">Name</label>
+    <input [(ngModel)]="contactData.name" #name="ngModel" class="footer-input" id="name" name="name" type="text" placeholder="Your name ..." required>
+    <span *ngIf="!name.valid && name.touched" class="span-warning">Please enter your name</span>
+    <br/>
+    
+    <label for="email">eMail</label>
+    <input [(ngModel)]="contactData.email" #email="ngModel" class="footer-input" id="email" name="email" type="email" placeholder="Your email ..." required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+    <span *ngIf="!email.valid && email.touched" class="span-warning">Please enter a valid email</span>
+    <br/>
+    <label for="message">Message</label>
+    <textarea [(ngModel)]="contactData.message" #message="ngModel" class="footer-text-area" name="message" id="message" cols="30" rows="10" placeholder="Your message ..." required minlength="5"></textarea>
+    <span *ngIf="message && !message.valid && message.touched" class="span-warning">Please enter your message</span>
+
+    <br/>
+
+    <input class="" type="submit" value="Submit">
+
+    <!-- <input type="checkbox" name="accept" id="accept" required>
+    <span >Please read & accept the <a routerLink="legal">privacy policy.</a></span> -->
+    <input type="checkbox" name="accept" id="accept" [(ngModel)]="accept" required>
+    <span *ngIf="accept === false">Please accept the <a routerLink="legal">privacy policy.</a></span>
+
+  </form>  
+</div>

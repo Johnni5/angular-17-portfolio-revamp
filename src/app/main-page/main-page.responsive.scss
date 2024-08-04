@@ -1,0 +1,189 @@
+@media screen and (max-width: 1200px) {
+  section {
+    width: 90%;
+  }
+  .fontSyne {
+    font-size: 96px;
+    line-height: 96px;
+  }
+  .first-line, .second-line {
+    width: 90%;
+  }
+  .sep-line {
+    left: 10%;
+  }
+  .vector-line {
+    width: 0;
+  }
+  .down-arrow {
+    left: 85%;
+  }
+  .atf-email {
+    left: -1%;
+  }
+  .atf-name {
+    // display: flex;
+    margin-left: -7%;
+  }
+ 
+}
+
+@media screen and (max-width: 800px) {
+  section {
+    width: 80%;
+    top: 150px;
+  }
+  .fontSyne {
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .atf-name {
+    font-size: 36px;
+  }
+  .sep-line {
+    top: 180px;
+    left: 5%;
+  }
+  .vector-line {
+    width: 80%;
+  }
+  .down-arrow {
+    top: 500px;
+    left: 70%;
+    width: 80px;
+    height: 160px;
+    > img {
+      width: 80px;
+      height: 120px;
+    }
+    > p {
+      width: 40px;
+      height: 30px;
+      font-size: 18px;
+    }
+  }
+  .atf-email {
+    top: 550px;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    width: 70%;
+    top: 120px;
+  }
+  .fontSyne {
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .atf-name {
+    font-size: 28px;
+  }
+  .sep-line {
+    top: 160px;
+    left: 5%;
+  }
+  .vector-line {
+    width: 70%;
+  }
+  .down-arrow {
+    top: 400px;
+    left: 60%;
+    width: 60px;
+    height: 120px;
+    > img {
+      width: 60px;
+      height: 90px;
+    }
+    > p {
+      width: 30px;
+      height: 22px;
+      font-size: 16px;
+    }
+  }
+  .atf-email {
+    top: 450px;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  section {
+    width: 60%;
+    top: 100px;
+  }
+  .fontSyne {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .atf-name {
+    font-size: 24px;
+  }
+  .sep-line {
+    top: 140px;
+    left: 5%;
+  }
+  .vector-line {
+    width: 60%;
+  }
+  .down-arrow {
+    top: 350px;
+    left: 50%;
+    width: 40px;
+    height: 80px;
+    > img {
+      width: 40px;
+      height: 60px;
+    }
+    > p {
+      width: 20px;
+      height: 16px;
+      font-size: 14px;
+    }
+  }
+  .atf-email {
+    top: 400px;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  section {
+    width: 90%;
+    top: 80px;
+  }
+  .fontSyne {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .atf-name {
+    font-size: 20px;
+  }
+  .sep-line {
+    top: 120px;
+    left: 5%;
+  }
+  .vector-line {
+    width: 50%;
+  }
+  .down-arrow {
+    top: 300px;
+    left: 40%;
+    width: 30px;
+    height: 60px;
+    > img {
+      width: 30px;
+      height: 45px;
+    }
+    > p {
+      width: 15px;
+      height: 12px;
+      font-size: 12px;
+    }
+  }
+  .atf-email {
+    top: 350px;
+    left: 5%;
+  }
+}

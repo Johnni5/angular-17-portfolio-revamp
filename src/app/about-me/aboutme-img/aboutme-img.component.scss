@@ -1,0 +1,16 @@
+.aboutme-img-container {
+  &:hover {
+    width: 533px;
+    height: 533px;
+    border: 4px dotted black;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: 5px 5px 15px 0px #00000026;
+
+  }
+}
+
+.aboutme-img {
+
+}

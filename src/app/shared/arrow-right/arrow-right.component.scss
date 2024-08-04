@@ -1,0 +1,16 @@
+.arrow-right-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 1239px;
+  height: 300px;
+  position: absolute;
+  top: 2637px;
+  left: 16%;
+}
+
+@media screen and (max-width: 1200px) {
+  .arrow-right-container {
+    left: -1%;
+  }
+  
+}

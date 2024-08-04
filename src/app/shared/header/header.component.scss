@@ -1,0 +1,18 @@
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  padding-left: 11%;
+  padding-top: 28px;
+
+  >img {
+    cursor: pointer;
+  }
+}
+
+.burger-btn {
+  position: relative;
+  left: 620px;
+}

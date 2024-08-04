@@ -1,0 +1,19 @@
+<section style="width: 100%;">
+  <div class="header-icons">
+    <a href="/">
+      <img src="../../../assets/icons/header-logo.png">
+    </a>
+    <img 
+     (click)="openOverlay()" 
+     [class.burger-btn]="menuVisible"  
+     class="" 
+     src="../../../assets/icons/header-burger.png" 
+     alt=""
+    >
+
+
+
+    <app-ol-burger-menu *ngIf="menuVisible"/>
+
+  </div>
+</section>

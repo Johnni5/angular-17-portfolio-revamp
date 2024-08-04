@@ -1,0 +1,107 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  width: 1242px;
+  height: 2333px;
+  position: absolute;
+  top: 2948px;
+  left: 18%;
+}
+
+.portfolio-row {
+  display: flex;
+  margin-bottom: 76px;
+}
+
+.project-data-container {
+  margin-left: 100px;
+  width: 479px;
+  height: 339px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end; 
+}
+
+.project-data-stack {
+  display: flex;
+}
+
+.font-title {
+  font-size: 78px;
+  line-height: 78px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 45px;
+  line-height: 45px;
+  text-align: start;
+}
+
+h3 {
+  font-size: 23px;
+  line-height: 27px;
+  text-align: start;
+}
+
+p {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.project-data-button {
+  width: 189px;
+  height: 65px;
+  display: flex;
+  gap: 86px;
+  border: black 4px solid;
+  border-radius: 6px;
+  padding: 20px 60px;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 5px 5px 15px 0px #00000026;
+    animation: all 0.115s ease-in-out;
+    transform: scale(1.1);  
+  }
+}
+
+.project-data-button-container {
+  display: flex;
+  gap: 24px;
+}
+
+.portfolio-img {
+  width: 620px;
+  height: 393px;
+  &:hover {
+    border-radius: 11px;
+    box-shadow: 5px 5px 15px 0px #00000026;
+    animation: all 0.115s ease-in-out;
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  h2, p {
+    margin-left: -36%;
+  }
+  p {
+    width: 77%;
+  }
+  .project-data-container {
+    margin-left: 1%;
+    width: 39%;
+  }
+  .project-data-stack, .project-data-button-container {
+    margin-left: -36%;
+  }
+  .portfolio-img {
+    margin-left: -29%;
+    width: 605px;
+  }
+  .sub-p {
+    margin-left: -6%;
+  }
+
+}
