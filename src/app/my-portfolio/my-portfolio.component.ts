@@ -1,11 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Project } from '../interfaces/projects.interface';
+import { RouterLink } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-my-portfolio',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink, TranslateModule],
   templateUrl: './my-portfolio.component.html',
   styleUrl: './my-portfolio.component.scss'
 })
@@ -17,37 +19,52 @@ export class MyPortfolioComponent {
 
   projects : Project[] = [
     {
-      image: '../../../assets/icons/projects/join.png',
+      image: './assets/icons/projects/join.png',
       title: 'Join',
       stack: ['JavaScript | HTML | CSS | Firebase'],
-      description: 'Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.',
-      linkGh: 'http://www.github.com',
-      linkLi: ''
+      projectDescription: 'PROJECT_JOIN_DESCRI',
+      linkGh: 'https://github.com/Johnni5/javascript-join',
+      linkLi: 'https://johnni5.github.io/javascript-join/html/board.html'
     },
     {
-      image: '../../../assets/icons/projects/pokedex.png',
+      image: './assets/icons/projects/pokedex.png',
       title: 'Pokedex',
       stack: ['JavaScript | HTML | CSS | API'],
-      description: 'Based on the PokéAPI, a simple library that provides and catalogues pokemon information.',
-      linkGh: 'http://www.github.com',
-      linkLi: ''
+      projectDescription: 'PROJECT_POKE_DESCRI',
+      linkGh: 'https://github.com/Johnni5/javascript-pokedex-api',
+      linkLi: 'https://johnni5.github.io/javascript-pokedex-api/'
     },
     {
-      image: '../../../assets/icons/projects/react-rolodeck.png',
+      image: './assets/icons/projects/react-rolodeck.png',
       title: 'Rolodeck',
       stack: ['React | JavaScript | HTML | CSS'],
-      description: 'Robot-Rolodeck is a React-based application that allows users to create and manage a virtual robot collection.',
+      projectDescription: 'PROJECT_ROBO_DESCRI',
       linkGh: 'https://github.com/Johnni5/react-rolodex',
       linkLi: 'https://johnni5.github.io/react-rolodex/'
     },
     {
-      image: '../../../assets/icons/projects/el-pollo-01.png',
-      title: 'El Pollo Loco',
+      image: './assets/icons/projects/el-pollo-01.png',
+      title: 'Pollo Loco',
       stack: ['JavaScript | HTML | CSS'],
-      description: 'A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and spicy bottles to fight against the mad boss chicken..',
-      linkGh: 'http://www.github.com',
-      linkLi: ''
+      projectDescription: 'PROJECT_POLLO_DESCRI',
+      linkGh: 'https://github.com/Johnni5/javascript-pollo-loco-final',
+      linkLi: 'https://johnni5.github.io/javascript-pollo-loco-final/'
+    },
+    {
+      image: './assets/icons/projects/kanban-user.png',
+      title: 'Kanban',
+      stack: ['Angular |JavaScript | HTML | CSS'],
+      projectDescription: 'PROJECT_KANBAN_DESCRI',
+      linkGh: 'https://github.com/Johnni5/angular-18-kanban-board',
+      linkLi: 'https://johannes-kaeppler.dev/kanban/index.html'
     },
   ]
   
+  // pojectDescriptions = [
+  //   'PROJECT_JOIN_DESCR',
+  //   'PROJECT_POKE_DESCR',
+  //   'PROJECT_ROBO_DESCR',
+  //   'PROJECT_POLLO_DESCR',
+  //   'PROJECT_KANBAN_DESCRI',
+  // ];
 }

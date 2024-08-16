@@ -1,16 +1,126 @@
-.aboutme-img-container {
-  &:hover {
-    width: 533px;
-    height: 533px;
-    border: 4px dotted black;
-    position: relative;
-    top: 5px;
-    left: 5px;
-    box-shadow: 5px 5px 15px 0px #00000026;
+// .aboutme-img-container {
+//   position: relative;
+//   transition: width 0.3s ease, height 0.3s ease, box-shadow 0.3s ease;
+//   &:hover {
+//     width: 533px;
+//     height: 533px;
+//     // box-shadow: 5px 5px 15px 0px #00000026;
+//   }
+//   &:hover::after {
+//     content: '';
+//     position: absolute;
+//     top: -124px;
+//     right: -14px;
+//     bottom: 191px;
+//     left: 4%;
+//     border: 4px solid black;
+//   }
+// }
 
-  }
+.aboutme-img-container {
+  position: relative;
+  transition: width 0.3s ease, height 0.3s ease, box-shadow 0.3s ease;
+  width: 580px;
+  height: 580px;
+  margin-top: -9%;
 }
 
 .aboutme-img {
+  width: 533px;
+  height: auto;
+  margin-top: -9%;
+  transform: translateZ(0);
+  &:hover {
+    content:'';
+    box-shadow: 5px 5px 15px 0px #00000026;
+    border: black 4px solid;
+  }
+}
 
+/* MEDIA */
+
+@media screen and (max-width: 1000px) {
+  .aboutme-img-container img {
+    width: 370px;
+    height: auto;
+    margin-top: 14%;
+    margin-left: -28%;
+  }
+
+  .aboutme-img-container:hover::after {
+    top: 66px;
+    right: 354px;
+    bottom: 115px;
+    left: -34%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .aboutme-img {
+    margin-top: -39%;
+    margin-left: 2%;
+  }
+  .aboutme-img-container img {
+    margin-top: -31%;
+    margin-left: -5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboutme-img {
+    margin-left: -11%;
+  }
+  .aboutme-img-container:hover::after{
+    top: -184px;
+    right: 76px;
+    left: -5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aboutme-img-container img {
+    width: 410px;
+    height: auto;
+    margin-left: -28%;
+    margin-top: -56%;
+  }
+  .aboutme-img-container:hover::after {
+    pointer-events: none;
+    // top: -288px;
+    // right: 261px;
+    // left: -19%;
+    // bottom: 76%;
+    display: none;
+  }
+  .aboutme-img-container:hover {
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aboutme-img-container img {
+    width: 380px;
+    height: auto;
+    margin-left: -17%;
+    margin-top: -56%;
+  }
+
+}
+
+@media screen and (width: 375px) {
+  .aboutme-img {
+    margin-left: -13%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .aboutme-img-container {
+    margin-left: -40%;
+    width: 380px;
+    margin-top: -49%;
+  }
+  .aboutme-img-container img {
+    width: 290px;
+    margin-left: 12%;
+  }
 }

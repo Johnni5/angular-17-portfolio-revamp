@@ -1,5 +1,17 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+
+
+body {
+  font-family: 'Syne', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: 'Syne', sans-serif;
+}
 
 .contact-container {
   width: 45%;
@@ -20,16 +32,72 @@ input[type=text],[type=email],[type=name], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
   padding: 12px 20px;
-  border: none;
+  // border: none;
   border-radius: 4px;
-  cursor: pointer;
+
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+// input[type=submit]:hover {
+//   // background-color: #45a049;
+//   // transform: scale(1.1);
+//   // font-weight: 700;
+  
+// }
+
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  appearance: none;
+  border: 2px solid #fff;
+  background-color: #000;
+  position: relative;
+  cursor: pointer;
+  
+}
+
+.contactform-policy-check:hover input[type="checkbox"] {
+  background-color: #00BC8F;
+  width: 26px;
+  height: 26px;
+  // border-radius: 50%;
+}
+// .contactform-policy-check input[type="checkbox"] {
+//   position: relative;
+// }
+
+// .contactform-policy-check input[type="checkbox"]::before {
+//   content: "";
+//   position: absolute;
+//   // z-index: -1;
+//   top: -6px;
+//   left: -6px;
+//   width: 32px;
+//   height: 32px;
+//   background-color: #00BC8F;
+//   border-radius: 50%;
+//   opacity: 0;
+//   transition: opacity 0.3s;
+// }
+
+// .contactform-policy-check:hover input[type="checkbox"]::before {
+//   opacity: .5;
+// }
+/* ------------------ */
+.contactform-policy-check:hover #accept-text {
+  font-weight: 700;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "\2713"; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+  font-size: 16px; 
+  color: #fff; 
 }
 
 .container {
@@ -40,4 +108,152 @@ input[type=submit]:hover {
 
 .span-warning {
   color: red;
+}
+
+.footer-form-container {
+  width: 38.563rem;
+  height: 30.625rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactform-submit-container {
+  // width: 38.563rem;
+  width: 88%;
+  height: 8.25rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contactform-policy-check {
+  // width: 36.563rem;
+  width: 100%;
+  height: 3.25rem;
+  display: flex;
+  align-items: center;
+  margin-left: 28%;
+  color: #fffcf3;
+  >span a {
+    color: #00BC8F;
+  }
+  >span {
+    font-size: .875rem;
+    width: 45%;
+    margin-left: 1%;
+  }
+}
+
+.form-submit-btn {
+  width: 16.83rem;
+  height: 4.25rem;
+  border: 4px #bbbbbb solid;
+  opacity: 50%;
+  padding: 60px, 20px, 60px;
+  box-shadow: 5px 5px 15px 0px #00000026;
+  // transition: all 0.75s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+  }
+
+}
+
+.no-hover {
+  pointer-events: none;
+}
+
+
+/* MEDIA */
+
+@media screen and (width: 4000px) {
+  .contactform-policy-check {
+    margin-left: 23%;
+  }  
+ 
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-form-container {
+    margin-left: -8%;
+  }
+  .contactform-policy-check {
+    margin-left: 8%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer-form-container {
+    width: 38.563rem;
+    height: 30.625rem;
+    margin-left: -20%;
+  }
+  .contactform-policy-check {
+    margin-left: 26%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer-form-container {
+    width: 33.563rem;
+    margin-left: -25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-form-container {
+    width: 182%;
+    margin-left: -40%;
+  }
+  .form-submit-btn {
+    margin-left: -1%;
+  }
+  .contactform-policy-check {
+    margin-left: 14%;
+  }
+
+  
+}
+
+@media screen and (max-width: 500px) {
+  .footer-form-container {
+    margin-left: -48%;
+  }
+  .contactform-policy-check span {
+    width: 45%;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+    .contact-container {
+      width: 41%;
+      margin-left: 24%;
+    }
+    .form-submit-btn {
+      margin-left: 12%;
+    }
+}
+
+@media screen and (width: 375px) {
+  .contact-container {
+    .footer-form-container {
+      width: 158%;
+      margin-left: -42%;
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .contact-container {
+    width: 40%;
+    margin-left: 22%;
+  }
+  .footer-form-container {
+    width: 18.563rem;
+  }
+  .form-submit-btn {
+    margin-left: 12%;
+    margin-top: 5%;
+  }
 }

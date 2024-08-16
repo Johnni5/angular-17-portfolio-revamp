@@ -1,0 +1,66 @@
+{
+  "FRONTEND": "Frontend",
+  "DEVELOPER": "Developer",
+  "CONTACT_VIA_EMAIL": "Contact via Email",
+  "SCROLL": "Scroll",
+  "DOWN": "Down",
+
+  "ABOUTME_OL_LINK": "About me",
+  "MYSKILLS_OL_LINK": "My skills",
+  "PORTFOLIO_OL_LINK": "Portfolio",
+
+  "ABOUTME_LETS_TALK_BTN": "Let's talk!",
+
+  "MY_SKILLS_TITLE": "My Skills",
+  "READY_LEARN": "I’m always ready to learn!",
+  
+  "IMPRINT": "Imprint",
+  "IMPRINT_LINK": "Imprint",
+  
+  "SAY_HI": "Say hi!",
+  "DISCUSS_NEW": "You would like to talk about a new project?",
+  "DISCUSS_CONTACT": "Say hello! let's discuss your ideas and make it happen.",
+  "NAME_FORM": "Name",
+  "NAME_WARN": "Please enter your name",
+  "NAME_PLACEHOLDER": "Enter your name",
+  "EMAIL_FORM": "E-mail",
+  "EMAIL_WARN": "Please enter your e-mail",
+  "EMAIL_PLACEHOLDER": "Enter your e-mail",
+  "MESSAGE": "Message",
+  "MESSAGE_WARN": "Please enter your message",
+  "MESSAGE_PLACEHOLDER": "Enter your message",
+
+  "ACCEPT_PRE": "Please accept the ",
+  "ACCEPT_LINK": "Privacy Policy",
+  "ACCEPT_POST": "",
+
+  "SUBMIT_BTN_TXT": "Send message",
+  "ACCEPT_WARN_BTN": "Accept the Privacy Policy",
+
+  "WHAT_DO_YOU_NEED": "Don't see the skill(s) you need?",
+  "CONTACT_ME": "Contact me!",
+  "ABOUTME": "About me",
+
+  "ABOUTME_PARAGRAPH": "Hello! As a frontend developer, I have extensive knowledge in Angular and JavaScript. The passion for programming and efficient solutions motivates me to continuously develop new skills.\n\n I look forward to applying my knowledge in your company and expanding it in your sense.",
+  "ABOUTME_CONTACT_TXT": "If you think I'd be a good match for your project, contact me!",
+  "ABOUTME_CITY": "Based near Frankfurt, Germany",
+  "ABOUTME_WORK": "Remote or hybrid work",
+
+  "IMPRINT_TEXT": "<h1>Imprint</h1><h2 id=\"m46\">Service Provider</h2><p>johannes-kaeppler.dev</p><p>-</p><p>65451 Kelsterbach</p><p>Hessen - Germany</p><br><h2 id=\"m56\">Contact Options</h2><br/><p>Email Address: contact&#64;johannes-kaeppler.dev</p><p>Contact Form: www.johannes-kaeppler.dev</p><br><h2 id=\"m172\">Social Media and Other Online Presences</h2><br/><p>This imprint also applies to the following social media presences and online profiles:</p><br/><p><a href=\"https://www.linkedin.com\" target=\"_blank\">https://www.linkedin.com</a></p><p><a href=\"https://www.github.com\" target=\"_blank\">https://www.github.com</a></p><br><h2 id=\"m5234\">Reservation of Use for Text and Data Mining</h2><h2 id=\"m169\">Image Credits</h2><br/><p>Image sources and copyright notices:</p><p>The icon in the header is created using free software such as www.canva.com. License-free.</p><p>Images in the portfolio section are from self-created projects in the field of frontend development. License-free.</p><p>Personal images/photos are those of the operator, including all rights, licenses, and obligations.</p><br><p class=\"seal\"><a href=\"https://datenschutz-generator.de/\" title=\"Legal text by Dr. Schwenke - for more information please click.\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">Created with the free privacy policy generator by Dr. Thomas Schwenke</a></p>",
+
+  "PRIVACY_POLICY_TEXT": "<div><h1>Privacy Policy</h1><br/><br/><h2>General Information</h2><br/><p>Thank you for visiting my portfolio website johannes-kaeppler.dev. The protection of your personal data is very important to me. I process your data solely based on legal regulations (GDPR, TMG). In this privacy policy, I inform you about the most important aspects of data processing on my website.</p><br/><h2>No Data Storage and No Cookies</h2><br/><p>No personal data about you is stored on my website. Furthermore, I do not use cookies or other tracking technologies to collect information about your use of my website.</p><br/><h2>Contact Form</h2><br/><p>My website contains a contact form through which you can reach me directly. The following personal data is requested:</p><br/><ul><li>Name</li><li>Email Address</li><li>Your Message</li></ul><br/><p>This information is used solely for the purpose of processing your inquiry and is sent directly to my email address. No data is stored on my website’s server or in a database. After the communication is concluded, the data will be deleted immediately, unless there are legal retention periods.</p><br/><h2>Links to External Sites</h2><br/><p>In my portfolio section, you will find links to external websites, including:</p><br/><ul><li>My GitHub profile</li><li>Live previews of my projects hosted on a server rented by me from Namecheap.com</li></ul><br/><p>Please note that these external websites have their own privacy policies, which I do not influence.</p><p>The privacy policy of Namecheap.com is available.</p><br/><h2>Your Rights</h2><br/><p>You have the right to access, correct, delete, restrict processing, data portability, withdraw consent, and object to the processing of your personal data. If you believe that the processing of your data violates data protection law or that your data protection rights have otherwise been infringed, you can file a complaint with the competent supervisory authority.</p><br/><h2>Contact</h2><br/><p>If you have any questions about data protection on my website, you can contact me at any time at the following email address:</p><br/><p>Johannes Käppler</p><a href=\"mailto:admin@johannes-kaeppler.dev\">admin&#64;johannes-kaeppler.dev</a><br/></div>",
+
+  "PORTFOLIO_TITLE": "Portfolio",
+  "PORTFOLIO_SUB_TITLE": "Explore a selection of my work here -\nInteract with projects to see my skills in action.",
+
+  "PROJECT_JOIN_DESCRI": "Task manager inspired by the Kanban System. Create and\norganize tasks using drag and drop functions, assign users and\ncategories.",
+
+  "PROJECT_POKE_DESCRI": "Based on the PokéAPI, a simple library that provides and catalogues pokemon information.",
+
+  "PROJECT_ROBO_DESCRI": "Robot-Rolodeck is a React-based application that allows users to create and manage a virtual robot collection.",
+
+  "PROJECT_POLLO_DESCRI": "A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and spicy bottles to fight against the mad boss chicken.",
+
+  "PROJECT_KANBAN_DESCRI": "A simple Kanban Board. Create and organize tasks. Done with Angular 18."
+
+}

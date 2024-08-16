@@ -8,6 +8,8 @@ body {
   background-color: #f0f0f0;
 }
 
+
+
 .container {
   text-align: center;
   // background-color: #fffcf3;
@@ -15,6 +17,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  // margin-bottom: -35%;
 }
 
 h1 {
@@ -54,4 +57,36 @@ h1 {
   cursor: pointer; 
   text-decoration: none; 
   color: black;
+}
+
+/* MEDIA */
+
+@media screen and (width: 4000px) {
+  .container {
+    font-size: xx-large;
+    margin-top: 131px;
+  }  
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin-bottom: 25%;
+  }
+}
+
+@media screen and (width: 375px) {
+ 
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    margin-bottom: 160px;
+    margin-top: 120px;
+  }
 }

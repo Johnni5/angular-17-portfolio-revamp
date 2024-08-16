@@ -1,6 +1,8 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
 my-info.txt
+portfolio-checkliste.odt
+IMPRINT_TEXT-h1-impressum.txt
 
 # Compiled output
 /dist

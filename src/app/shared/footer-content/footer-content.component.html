@@ -1,32 +1,14 @@
 <section class="footer-container">
   <div class="footer-input-container">
-    <h2 class="fontSyne">Say Hi!</h2>
-    <h3 class="fontOverpass fontGreen">Want to discuss a new project?</h3>
-    <p class="fontOverpassNormal">Say hello! let's discuss your ideas and make it happen</p> 
+    <h2 class="fontSyne">{{ 'SAY_HI' | translate }}</h2>
+    <h3 class="fontOverpass fontGreen">{{ 'DISCUSS_NEW' | translate }}</h3>
+    <p class="fontOverpassNormal">{{ 'DISCUSS_CONTACT' | translate }}</p> 
 
     <app-contact-form />
 
   </div>
   <div class="footer-button">
   </div>
-  <footer class="">
-    <div class="left-footer-icons">
-      <a href="" title="back to top">
-        <img class="icon-hover" src="../assets/icons/footer/footer-logo.png" alt="">
-      </a>
-      <p>Copyright by Johannes Käppler 2024</p>
-    </div>
-    <div class="right-footer-icons">
-      <a href="http://www.github.com" target="_blank" title="GitHub">
-        <img class="icon-hover" src="../assets/icons/footer/github-button.png" alt="">
-      </a>
-      <a href="mailto:kontakt@johanneskaeppler.com" title="eMail me!">
-        <img class="icon-hover" src="../assets/icons/footer/email-button.png" alt="">
-      </a>
-      <a href="http://www.linkedin.com" target="_blank" title="LinkedIn">
-        <img class="icon-hover" src="../assets/icons/footer/linkedin-button.png" alt="">
-      </a>
-    </div>
-  </footer>
-  <a class="footer-link-imprint icon-hover" routerLink="imprint" title="Imprint">Imprint</a>
+  <app-footer />
+  <a class="footer-link-imprint icon-hover" routerLink="imprint" title="Imprint">{{ 'IMPRINT_LINK' | translate }}</a>
 </section>

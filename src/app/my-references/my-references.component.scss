@@ -1,45 +1,45 @@
-.myreferences-container {
-  width: 1440px;
-  height: 565px;
-  position: absolute;
-  top: 5401px;
-  left: 13%;
+// .myreferences-container {
+//   width: 1440px;
+//   height: 565px;
+//   position: absolute;
+//   top: 5401px;
+//   left: 13%;
 
-}
+// }
 
-.myreferences-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 350px;
-  height: 350px;
-  border: 4px black solid;
-  &:hover {
-    box-shadow: 5px 5px 15px 0px #00000026;
-    border: 4px green solid;
-  }
-  >p {
-    text-align: center;
-  }
-}
+// .myreferences-card {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   width: 350px;
+//   height: 350px;
+//   border: 4px black solid;
+//   &:hover {
+//     box-shadow: 5px 5px 15px 0px #00000026;
+//     border: 4px green solid;
+//   }
+//   >p {
+//     text-align: center;
+//   }
+// }
 
-.myreferences-card-container {
-  margin-top: 24px;
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-}
+// .myreferences-card-container {
+//   margin-top: 24px;
+//   display: flex;
+//   justify-content: center;
+//   gap: 50px;
+// }
 
-@media screen and (max-width: 1200px) {
-  .myreferences-container {
-    left: -11%;
-  }
-  .myreferences-container {
-    left: 2%;
-    width: 1135px;
-  }
-  .myreferences-card {
-    margin-left: 7px;
-    margin-right: 7px;
-  }
-}
+// @media screen and (max-width: 1200px) {
+//   .myreferences-container {
+//     left: -11%;
+//   }
+//   .myreferences-container {
+//     left: 2%;
+//     width: 1135px;
+//   }
+//   .myreferences-card {
+//     margin-left: 7px;
+//     margin-right: 7px;
+//   }
+// }

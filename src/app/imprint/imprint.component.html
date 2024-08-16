@@ -1,37 +1,11 @@
-<section>
-  <div class="container">
-    <h1>Impressum</h1>
-    <h2 id="m46">Diensteanbieter</h2>
-    <p>johannes-kaeppler.dev</p>
-    <p>-</p>
-    <p>65451 Kelsterbach</p>
-    <p>Hessen, DE</p>
-    <br>
-    <h2 id="m56">Kontaktmöglichkeiten</h2><p>E-Mail-Adresse: contact&#64;johannes-kaeppler.dev</p>
-    <p>Kontaktformular: www.johannes-kaeppler.dev</p>
-    <br>
-    
-    <h2 id="m172">Social Media und andere Onlinepräsenzen</h2><p>Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile: </p>
-    <p><a href="https://www.linkedin.com" target="_blank">https://www.linkedin.com</a></p>
-    <p><a href="https://www.github.com" target="_blank">https://www.github.com</a></p>
-    <br>
-    
-    <h2 id="m5234">Vorbehalt der Nutzung für Text und Data Mining</h2>
-    <h2 id="m169">Bildnachweise</h2><p>Bildquellen und Urheberrechtshinweise: </p>
-    <p>Icon im Header ist mithilfe von freier Software wie zB www.canva.com erstellt. Lizenz-frei.</p>
-    <p>Bilder im Bereich Protfolio stammen von selbst erstellten Projekten im Bereich Frontend-Development. Lizenz-frei.</p>
-    <p>Personenbilder/Fotos sind die des Betreibers inkl. aller Rechten, Lizenzen und Pflichten.</p>
-    <br>
-    
-    <p class="seal"><a href="https://datenschutz-generator.de/" title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken." target="_blank" rel="noopener noreferrer nofollow">Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke</a></p>
-    <br/>
-    <div class="links">
-        | <a routerLink="" class="footer-links" title="back to the start">Home</a> |
-        <a routerLink="legal" class="footer-links" title="legal">Legal</a> |
-    </div>
+<app-header />
+
+<section id="imprint">
+  <div 
+    class="container"  
+    [innerHTML]="'IMPRINT_TEXT' | translate">
   </div>
 </section>
-<br/>
 
 
-
+<app-footer class="footer-imprint"/>

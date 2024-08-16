@@ -2,7 +2,7 @@ export interface Project {
   image: string
   title: string
   stack: string[]
-  description: string
+  projectDescription: string
   linkGh: string
   linkLi: string
 }

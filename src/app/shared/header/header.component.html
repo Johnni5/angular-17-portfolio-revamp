@@ -1,17 +1,18 @@
-<section style="width: 100%;">
+<section class="header-container">
   <div class="header-icons">
-    <a href="/">
-      <img src="../../../assets/icons/header-logo.png">
+    <a href="">
+      <img class="header-img" src="./assets/icons/jk_logo.png">
     </a>
-    <img 
-     (click)="openOverlay()" 
-     [class.burger-btn]="menuVisible"  
-     class="" 
-     src="../../../assets/icons/header-burger.png" 
-     alt=""
-    >
 
-
+    <div class="header-language">
+      <div class="header-language-img" name="" id="">
+        <img class="language-img" src="./assets/icons/de.png" alt="deutsch - german" (click)="changeLanguage('de')">
+      </div>
+      <div class="header-language-img" name="" id="">
+        <img class="language-img" src="./assets/icons/en.png" alt="englisch" (click)="changeLanguage('en')">
+      </div>
+      <div  (click)="openOverlay()" [ngClass]="{'burger-btn-animate': menuVisible}" class="burger-btn-img" [class.burger-btn]="menuVisible"></div>
+    </div>
 
     <app-ol-burger-menu *ngIf="menuVisible"/>
 

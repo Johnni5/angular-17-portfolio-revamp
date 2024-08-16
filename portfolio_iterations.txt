@@ -1,0 +1,43 @@
+#1 iteration : björn ->
+
+* about-me img -wiggle -Check
++ ID jump - distance-title -Check
+* impr+legal link -> eigentl NUR routerLink ... -> router-oulet needed? -Check
+* HEADER + FOOTER -> imprint&legal -Check
+* standrad text into custom -> form placeholder -Check
+* header - footer -> distance l to r : the same -Check
+* portfolio : transition - needs a bit more time .. -hover is too abrupt -Check
+* portfolio - details - EN to DE
+* burger-menu - weg??? -Check
+* app-mainPage -> section : 100vh -Check
+* footer unterer rand????? -Check
+* iP SE - 375x667 - width of div.my-skill-extra-container  -Check
+* 4000x2420 header+arrows - side-distance  -Check
+
+
+
+#2 iteration : björn ->
+
+* fix lines - r+l -Check
+* legal - jump to top (norm) -Check
+* click-legal - eine zeile (norm) -Check
+* en/de - not switching horozontically, if OL open -Check
+* SE - jumping behaviour ID -Check
+* overlay - w+h-100% -Check
+* responsiv - zwischenschritte.. -Check
+* EN/DE - portfolio - descri -Check -?
+* ol-button - reset -OPEN
+
+
+
+
+
+
+
+
+
+
+
+
+
+

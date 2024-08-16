@@ -1,13 +1,17 @@
-<section class="ol-main-section">
+<section class="ol-main-section" *ngIf="overlayVisible">
 
-  <p>ol-close via ngClass - ?</p>
-  <a href="aboutme">
-    <img src="../../../../assets/icons/about-me.png" alt="">
-  </a>
-  <a href="my-skills">
-    <img src="../../../../assets/icons/about-me.png" alt="">
-  </a>
-  <a href="portfolio">
-    <img src="../../../../assets/icons/about-me.png" alt="">
-  </a>
+  <div class="ol-link-container" >
+    <div class="ol-link-row">
+      <a class="fontSyne" href="#aboutme" (click)="resetOlBtn()">{{ 'ABOUTME_OL_LINK' | translate }}</a>
+      <div class="ol-start-angle"></div>
+    </div>
+    <div class="ol-link-row">
+      <a class="fontSyne" href="#myskills" (click)="resetOlBtn()">{{ 'MYSKILLS_OL_LINK' | translate }}</a>
+      <div class="ol-start-angle"></div>
+    </div>
+    <div class="ol-link-row">
+      <a class="fontSyne" href="#portfolio" (click)="resetOlBtn()">{{ 'PORTFOLIO_OL_LINK' | translate }}</a>
+      <div class="ol-start-angle"></div>
+    </div>
+  </div>
 </section>

@@ -3,15 +3,23 @@ import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { RouterLink } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact-form',
   standalone: true,
-  imports: [CommonModule, RouterLink, FormsModule, NgIf],
+  imports: [CommonModule, RouterLink, FormsModule, NgIf, TranslateModule],
   templateUrl: './contact-form.component.html',
   styleUrl: './contact-form.component.scss'
 })
 export class ContactFormComponent {
+
+  scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
 
   accept = false;
 
@@ -45,6 +53,7 @@ export class ContactFormComponent {
           next: (response: any) => {
             // EDIT for EXTRA
             console.log('worki worki');
+            alert('Message sent. Thank you!');
             ngForm.resetForm();
           },
           error: (error: string) => {
@@ -56,20 +65,10 @@ export class ContactFormComponent {
       // TEST MODUS
       console.log('else -data: ', this.contactData);
       // EDIT for EXTRA
+      alert('Message - NOT');
       ngForm.resetForm();
     }
   }
 
-
-  // onSubmit(ngForm:NgForm) {
-    
-  //   if (ngForm.valid && ngForm.submitted) {
-  //     console.log(this.contactData);
-        
-  //   } else {
-  //     // Display an error message or handle the validation error
-  //     console.log('Nope..!');
-  //   }
-  // }
   
 }

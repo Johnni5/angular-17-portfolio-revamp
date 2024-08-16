@@ -1,25 +1,30 @@
 body {
   // width: 1440px;
   // height: 7208px;
-  width: 100%;
-  height: 100vh;
-  background-color: #fffcf3;
+  // width: 100%;
+  // height: 100vh;
+  // background-color: #fffcf3;
   // top: -2038px;
   // left: 8941px;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 /* atf-section */
 
 section {
-  // border: #00bc8f solid 1px;
-  position: relative;
-  top: 204px;
-  width: 1240px;
-  height: 561px;
+  // position: relative;
+  // top: 204px;
+  // width: 1240px;
+  height: 100vh;
+  // height: 561px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.id-jump {
+  margin-top: 400px;
 }
 
 .fontSyne {
@@ -32,16 +37,16 @@ section {
 .first-line {
   width: 926px;
   height: 157px;
-  position: absolute;
-  top: -56px;
+  // position: absolute;
+  // top: -56px;
   // left: 257px;
 }
 
 .second-line {
   width: 1022px;
   height: 157px;
-  position: absolute;
-  top: 64px;
+  // position: absolute;
+  // top: 64px;
   // left: 209px;
 }
 
@@ -52,6 +57,7 @@ section {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 201px;
 }
 
 .atf-name {
@@ -62,11 +68,13 @@ section {
 }
 
 .sep-line {
-  position: absolute;
-  top: 200px;
+  // position: absolute;
+  // top: 200px;
   left: 120px;
   display: flex;
   align-items: center;
+  margin-left: 24%;
+  width: fit-content;
 }
 
 .vector-line {
@@ -76,9 +84,11 @@ section {
 }
 
 .down-arrow {
-  position: absolute;
-  top: 595px;
-  left: 85%;
+  // position: absolute;
+  // top: 595px;
+  // left: 85%;
+  margin-left: 78%;
+  margin-top: -29%;
   gap: 6px;
   width: 116px;
   height: 230px;
@@ -101,9 +111,11 @@ section {
 }
 
 .atf-email {
-  position: absolute;
-  top: 635px;
-  left: 4%;
+  // position: absolute;
+  // top: 635px;
+  // left: 4%;
+  margin-left: 9%;
+  margin-top: -9%;
   transform: rotate(270deg);
   width: 346px;
   height: 27px;

@@ -19,6 +19,7 @@ body {
   border-radius: 10px;
   // box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
+  margin-bottom: 8%;
 }
 h1, h2 {
   color: #333;
@@ -46,4 +47,20 @@ p {
   cursor: pointer; 
   text-decoration: none; 
   color: black;
+}
+
+/* MEDIA */
+
+@media screen and (width: 4000px) {
+  .container {
+    margin-top: 80px;
+    font-size: xx-large;
+  }  
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    margin-bottom: 144px;
+    margin-top: 110px;
+  }
 }

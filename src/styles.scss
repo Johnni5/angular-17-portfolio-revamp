@@ -12,9 +12,22 @@
 }
 
 body {
+  font-family: 'Syne', sans-serif;
   background-color: #fffcf3;
   margin: 0;
   padding: 0;
+  // max-width: 1440px;
+  // width: 100%;
+  overflow-x: hidden;
+}
+
+body.overlay-active {
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
@@ -26,6 +39,10 @@ h1, h2, p, h3 {
   padding: 0;
 }
 
+.txt-hover-green {
+  color: #00bc8f;
+}
+
 .fontSyne {
   font-family: 'Syne';
   font-size: 78px;
@@ -33,6 +50,9 @@ h1, h2, p, h3 {
   line-height: 78px;
   letter-spacing: 0.1em;
   text-align: center;
+  &:hover {
+    color: #00bc8f;
+  }
 }
 
 .fontOverpassNormal {
@@ -53,4 +73,29 @@ h1, h2, p, h3 {
 
 .fontGreen {
   color: #00bc8f;
+}
+
+.id-jumping-distance {
+  padding-top: 150px;
+}
+
+.footer-imprint {
+  background-color: black;
+  // width: 140em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.display-content {
+  display: contents;
+}
+
+/* MEDIA */
+
+@media screen and (width: 375px) {
+  .footer-imprint {
+    padding-left: 12%;
+  }
 }

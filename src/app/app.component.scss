@@ -4,5 +4,13 @@ body {
   // background-color: #e0b020;
   top: -2038px;
   left: 8941px;
+  max-width: 1440rem;
 
+}
+
+.header-static {
+  position: fixed;
+  top: 0;
+  z-index: 7;
+  overflow: hidden;
 }

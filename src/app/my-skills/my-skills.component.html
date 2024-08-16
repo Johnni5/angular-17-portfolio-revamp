@@ -1,29 +1,32 @@
-<section id="myskills">
-  <img class="my-skills-img" src="../../../assets/icons/my-skills-txt.png" alt="">
-  <div class="my-skills-container">
+<section id="myskills" class="id-jumping-distance">
+  <span class="id-jumping-distance fontSyne my-skills-txt my-skills-title ">{{ 'MY_SKILLS_TITLE' | translate }}</span>
+  <!-- <img  class="my-skills-img" src="../../../assets/icons/my-skills-txt.png" alt=""> -->
+  <div  class="my-skills-container">
     <div class="my-skills-table">
       <div class="skills-row-1">
-        <img src="../../assets/icons/it-skills/angular.png" title="Angular" alt="">
-        <img src="../../assets/icons/it-skills/ts.png" title="Typescript" alt="">
-        <img src="../../assets/icons/it-skills/javscript.png" title="JavaScript" alt="">
-        <img src="../../assets/icons/it-skills/html.png" title="HTML" alt="">
-        <img src="../../assets/icons/it-skills/css.png" title="CSS" alt="">
-        <img src="../../assets/icons/it-skills/design.png" title="Material Design" alt="">
+        <img src="./assets/icons/it-skills/javscript.png" title="JavaScript" alt="">
+        <img src="./assets/icons/it-skills/ts.png" title="Typescript" alt="">
+        <img src="./assets/icons/it-skills/scrum.png" title="SCRUM" alt="">
+        <img src="./assets/icons/it-skills/python.png" title="Python" alt="">
       </div>
       <div class="skills-row-2">
-        <img src="../../assets/icons/it-skills/firebase.png" title="Firebase" alt="">
-        <img src="../../assets/icons/it-skills/git.png" title="Git/GitHub" alt="">
-        <img src="../../assets/icons/it-skills/scrum.png" title="SCRUM" alt="">
-        <img src="../../assets/icons/it-skills/linux.png" title="Linux" alt="">
-        <img src="../../assets/icons/it-skills/python.png" title="Python" alt="">
-        <img src="../../assets/icons/it-skills/vue Js.png" title="VueJS" alt="">
+        <img src="./assets/icons/it-skills/design.png" title="Material Design" alt="">
+        <img src="./assets/icons/it-skills/html.png" title="HTML" alt="">
+        <img src="./assets/icons/it-skills/css.png" title="CSS" alt="">
+        <img src="./assets/icons/it-skills/git.png" title="Git/GitHub" alt="">
+      </div>
+      <div class="skills-row-3">
+        <img src="./assets/icons/it-skills/angular.png" title="Angular" alt="">
+        <img src="./assets/icons/it-skills/vue Js.png" title="VueJS" alt="">
+        <img src="./assets/icons/it-skills/firebase.png" title="Firebase" alt="">
+        <img src="./assets/icons/it-skills/linux.png" title="Linux" alt="">
       </div>
     </div>
     <div class="skills-extra-contact">
-      <img title="What do You need?" src="../../assets/icons/new-learning.png" alt="">
-      <p>Don’t see the skill(s) you need?  &nbsp;</p> <!--  ...nicht die Skills, die Sie benötigen? -->
-      <a href="mailto:kontakt@johanneskaeppler.com" class="fontGreen" title="write me an email!">contact me</a>
-      <p>&nbsp; I’m always ready to learn!</p> <!-- Ich bin jederzeit bereit, Neues zu lernen -->
+      <img title="What do You need?" src="./assets/icons/new-learning.png" alt="">
+      <p>{{ 'WHAT_DO_YOU_NEED' | translate }}  &nbsp;</p> 
+      <a href="mailto:kontakt@johanneskaeppler.com" class="fontGreen" title="write me an email!">{{ 'CONTACT_ME' | translate }}</a>
+      <p>&nbsp; {{ 'READY_LEARN' | translate }}</p>
     </div>
   </div>
 </section>

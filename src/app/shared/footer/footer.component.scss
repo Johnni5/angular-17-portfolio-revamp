@@ -1,0 +1,71 @@
+.i1con-hover {
+  &:hover {
+    animation: all 0.75s ease-in-out;
+    transform: scale(1.1);
+  }
+}
+
+.left-footer-icons {
+  color: white;
+  
+}
+
+.right-footer-icons {
+  display: flex;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  // gap: 58%;
+  gap: 23%;
+  // width: 1240px;
+  height: 69px;
+  // position: absolute; 
+  // top: 1223px;
+  // left: 18%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%
+}
+
+.left-footer-icons img {
+  width: 76px;
+  height: auto;
+  margin-top: 8%;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 600px) {
+  footer {
+    margin-top: 10%;
+    gap: 28%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  footer {
+    margin-top: 10%;
+    gap: 0%;
+    margin-left: 0.5%;
+    width: 84%;
+  }
+}
+
+@media screen and (width: 375px) {
+  footer {
+    margin-top: 12%;
+    margin-left: -2%;
+  }  
+  
+  
+}
+
+@media screen and (max-width: 320px) {
+  footer {
+    margin-top: 41%;
+    margin-left: 7%;
+  }
+}

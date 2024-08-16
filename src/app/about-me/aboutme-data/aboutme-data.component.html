@@ -1,27 +1,34 @@
 <section class="aboutme-data">
-  <h2>About Me</h2>
-  <p>
-    I am a Front-end deverloper from Munich, Germany. I help<br/> 
-    designers and companies to bring  their ideas to real life.<br/>
-    Creativity and logical thinking are skills that I have developed<br/>
-    to connect ideas into quality products.
+  <h2 class="fontSyne">{{ 'ABOUTME' | translate }}</h2>
   <br/>
-  </p>
-  <br/>
-
-  <p>
-    If you think I'd be a good match for your project, contact me!
+  <p class="fontOverpassNormal">
+    {{ 'ABOUTME_PARAGRAPH' | translate }}   
   </p>
   <br/>
   <br/>
-  <div>
-    <img class="icons-animate" src="../../../assets/icons/house.png" alt="">
-    <p>Based in Afrika - *unga-bunga!</p>
+  <p class="fontOverpassNormal">
+    {{ 'ABOUTME_CONTACT_TXT' | translate }}
+  </p>
+  <br/>
+  <br/>
+  <div class="aboutme-data-container">
+    <img class="icons-animate" src="./assets/icons/house.png" alt="">
+    <p class="icon-txt fontOverpassNormal">
+      {{ 'ABOUTME_CITY' | translate }}
+    </p>
+    <!-- <p>Based in Afrika - *unga-bunga!</p> -->
   </div>
   <br/>
-
+  <div class="aboutme-data-container">
+    <img class="icons-set icons-animate" src="./assets/icons/laptop.png" alt="">
+    <p class="fontOverpassNormal">
+      {{ 'ABOUTME_WORK' | translate }}
+    </p>
+    <!-- <p>Open to work Remote - duh!</p> -->
+  </div>
   <div>
-    <img class="icons-animate" src="../../../assets/icons/laptop.png" alt="">
-    <p>Open to work Remote - duh!</p>
+    <a href="#contact">
+      <button class="talk-btn fontOverpassNormal">{{ 'ABOUTME_LETS_TALK_BTN' | translate }}</button>
+    </a>
   </div>
 </section>
