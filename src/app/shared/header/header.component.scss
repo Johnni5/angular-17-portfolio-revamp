@@ -119,7 +119,10 @@
 
 @media screen and (max-width: 1200px) {
   .burger-btn {
-    left: 182%;
+    left: 2%;
+  }
+  .header-language {
+    margin-left: -14%;
   }
 }
 
@@ -131,7 +134,7 @@
     margin-left: -18%;
   }
   .header-icons {
-    gap: 96%;
+    gap: 81%;
     padding-left: 0%;
   }
 }
@@ -145,14 +148,14 @@
 
 @media screen and (max-width: 600px) {
   .burger-btn {
-    left: -10px;
+    left: 11px;
   }
   .header-container {
     width: 100%;
   }
   .header-icons {
-    gap: 76%;
-    padding-left: 0%;
+    gap: 78%;
+    padding-left: 1%;
   }
   .header-language {
     margin-left: -53%;
@@ -162,22 +165,34 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .burger-btn {
+    left: 6px;
+  }
+  .header-icons {
+    gap: 66%;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .header-container {
     width: 126%;
   }
   .burger-btn {
-    left: 12%;
+    left: -1%;
   }
   .header-icons {
-    width: 70%;
+    // width: 70%;
+    gap: 56%;
+    padding-left: 6%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header-icons {
     width: 77%;
-    padding-left: 1%;
+    padding-left: 8%;
+    gap: 35%;
   }
   .burger-btn {
     left: 1%;
