@@ -11,9 +11,20 @@
       <div class="header-language-img" name="" id="">
         <img class="language-img" src="./assets/icons/en.png" alt="englisch" (click)="changeLanguage('en')">
       </div>
-      <div  (click)="openOverlay()" [ngClass]="{'burger-btn-animate': menuVisible}" class="burger-btn-img" [class.burger-btn]="menuVisible"></div>
-    </div>
+      <div  (click)="toggleOverlay()" [ngClass]="{'burger-btn-animate': menuVisible}" class="burger-btn-img" [class.burger-btn]="menuVisible"></div>
 
+      <!-- <div (click)="closeMenu()" [ngClass]="{'ol-main-section': isMenuOpen}" [ngStyle]="{'display': menuVisible ? 'flex' : 'none'}"> -->
+      <div (click)="closeMenu()" [ngClass]="{'ol-main-section': menuVisible}">
+        <div [ngClass]="{'ol-main-section': !isMenuOpen}">
+        </div>
+        <!-- <div [ngClass]="{'menu': menuVisible, 'menu-animate-close': !menuVisible}"
+          class="fontSyne">
+        </div> -->
+      </div>
+
+      <!-- <div  (click)="openOverlay()" [ngClass]="{'burger-btn-animate': menuVisible}" class="burger-btn-img" [class.burger-btn]="menuVisible"></div> -->
+
+    </div>
     <app-ol-burger-menu *ngIf="menuVisible"/>
 
   </div>

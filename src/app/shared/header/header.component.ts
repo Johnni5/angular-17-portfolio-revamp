@@ -31,13 +31,20 @@ export class HeaderComponent {
 
   menuVisible = false;
   
-  openOverlay() {
+  toggleOverlay() {
+    console.log('toggleOverlay PRE: ', this.menuVisible);
     this.menuVisible = !this.menuVisible;
+    console.log('toggleOverlay POST: ', this.menuVisible);
   }
 
-  closeOverlay() {
+  closeMenu() {
+    console.log('close menu: ', this.menuVisible);
     this.menuVisible = false;
   }
+
+  // closeOverlay() {
+  //   this.menuVisible = false;
+  // }
   
   changeLanguage(language: string) {
     // console.log(language);

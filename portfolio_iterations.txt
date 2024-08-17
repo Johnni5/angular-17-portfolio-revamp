@@ -25,7 +25,8 @@
 * SE - jumping behaviour ID -Check
 * overlay - w+h-100% -Check
 * responsiv - zwischenschritte.. -Check
-* EN/DE - portfolio - descri -Check -?
+* EN/DE - portfolio - descri -Check
+
 * ol-button - reset -OPEN
 
 
