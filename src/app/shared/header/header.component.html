@@ -13,19 +13,30 @@
       </div>
       <div  (click)="toggleOverlay()" [ngClass]="{'burger-btn-animate': menuVisible}" class="burger-btn-img" [class.burger-btn]="menuVisible"></div>
 
-      <!-- <div (click)="closeMenu()" [ngClass]="{'ol-main-section': isMenuOpen}" [ngStyle]="{'display': menuVisible ? 'flex' : 'none'}"> -->
       <div (click)="closeMenu()" [ngClass]="{'ol-main-section': menuVisible}">
-        <div [ngClass]="{'ol-main-section': !isMenuOpen}">
+        <div [ngClass]="{'ol-main-section': menuVisible}">
         </div>
-        <!-- <div [ngClass]="{'menu': menuVisible, 'menu-animate-close': !menuVisible}"
-          class="fontSyne">
-        </div> -->
       </div>
 
-      <!-- <div  (click)="openOverlay()" [ngClass]="{'burger-btn-animate': menuVisible}" class="burger-btn-img" [class.burger-btn]="menuVisible"></div> -->
-
     </div>
-    <app-ol-burger-menu *ngIf="menuVisible"/>
+
+    <section class=" ol-main-section" *ngIf="menuVisible">
+
+      <div class="d-none ol-link-container" >
+        <div class="ol-link-row">
+          <a class="fontSyne" href="#aboutme" (click)="toggleOverlay()">{{ 'ABOUTME_OL_LINK' | translate }}</a>
+          <div class="ol-start-angle"></div>
+        </div>
+        <div class="ol-link-row">
+          <a class="fontSyne" href="#myskills" (click)="toggleOverlay()">{{ 'MYSKILLS_OL_LINK' | translate }}</a>
+          <div class="ol-start-angle"></div>
+        </div>
+        <div class="ol-link-row">
+          <a class="fontSyne" href="#portfolio" (click)="toggleOverlay()">{{ 'PORTFOLIO_OL_LINK' | translate }}</a>
+          <div class="ol-start-angle"></div>
+        </div>
+      </div>
+    </section>
 
   </div>
 </section>

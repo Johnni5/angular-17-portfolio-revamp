@@ -26,9 +26,8 @@
 * overlay - w+h-100% -Check
 * responsiv - zwischenschritte.. -Check
 * EN/DE - portfolio - descri -Check
-
-* ol-button - reset -OPEN
-
+* ol-button - reset -OPEN -Check
+* arrow-up - at scroll -No -> header icon
 
 
 

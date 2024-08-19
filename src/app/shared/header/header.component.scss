@@ -188,6 +188,13 @@
   }
 }
 
+@media screen and (width: 375px) {
+  .header-icons {
+    width: 16%;
+    margin-left: -1%;
+  }  
+}
+
 @media screen and (max-width: 320px) {
   .header-icons {
     width: 77%;

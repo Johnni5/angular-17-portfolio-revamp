@@ -15,4 +15,10 @@ import { ImprintComponent } from '../../imprint/imprint.component';
 })
 export class FooterContentComponent {
 
+  scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
 }

@@ -164,6 +164,16 @@ input[type="checkbox"]:checked::before {
   pointer-events: none;
 }
 
+.user-info-container {
+  // border: tomato 1px solid;
+  width: 200px;
+  height: 50px;
+  margin-left: 66%;
+  >p {
+  color: white;
+  font-size: 22px;
+  }
+}
 
 /* MEDIA */
 

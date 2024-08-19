@@ -26,5 +26,9 @@
       </div>
       <input class="fontOverpassNormal form-submit-btn" type="submit" value="{{ 'SUBMIT_BTN_TXT' | translate }}&nbsp; " [disabled]="!contactForm.form.valid || !accept" [class.no-hover]="!contactForm.form.valid || !accept">
     </div>
-  </form>  
+  </form> 
+  <div class="user-info-container">
+    <!-- <p id="msgSendTxt"  *ngIf="isButtonClicked" [(ngModel)]="sendText" #msgSendTxt="ngModel"></p> -->
+    <p id="msgSendTxt" *ngIf="isButtonClicked">{{ sendText }}</p>
+  </div> 
 </div>
