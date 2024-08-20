@@ -166,6 +166,7 @@ h2 {
     height: 1231px;
   }
 }
+
 @media screen and (max-width: 1200px) { 
   footer {
     width: 810px;
@@ -244,6 +245,18 @@ h2 {
   }
   .footer-container {
     height: 1171px;
+  }
+}
+
+@media screen and (width: 414px) {
+  h2 {
+    padding-left: 8% !important;
+  }
+  h3 {
+    margin-left: 12% !important;
+  }
+  .footer-container {
+    height: 1211px;
   }
 }
 

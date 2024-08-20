@@ -36,6 +36,20 @@
   }
 }
 
+@media screen and (width: 414px) {
+
+  .ol-main-section {
+    left: 0px !important;
+    padding-left: 96px;
+  }
+  .ol-link-row a {
+    font-size: 32px !important;
+  }
+  .ol-link-container {
+    padding-left: 22%;
+  }
+}
+
 @media screen and (max-width: 400px) {
 
   .ol-main-section {

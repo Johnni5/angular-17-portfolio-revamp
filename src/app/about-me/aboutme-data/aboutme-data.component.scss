@@ -120,6 +120,19 @@
   
 }
 
+@media screen and (width: 414px) {
+  p {
+    margin-left: -1%;
+    width: 380px;
+  }
+  .aboutme-data {
+    margin-top: 115%;
+  }
+  .talk-btn {
+    left: 20%;
+  }
+}
+
 @media screen and (max-width: 400px) {
   h2 {
     margin-left: -1%;

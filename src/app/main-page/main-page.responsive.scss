@@ -197,6 +197,25 @@
   }
 }
 
+@media screen and (width: 414px) {
+  .atf-text h1{
+    font-size: 41px;
+  }
+  .sep-line {
+    margin-left: -16%;
+    width: 133%;
+  }
+  .down-arrow {
+    margin-top: -85%;
+  }
+  .atf-email {
+    margin-top: -41%;
+  }
+  // .atf-name {
+  //   width: 92%;
+  // }
+}
+
 @media screen and (max-width: 400px) {
   section {
     width: 60%;

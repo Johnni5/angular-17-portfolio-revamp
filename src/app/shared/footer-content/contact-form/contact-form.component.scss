@@ -236,6 +236,16 @@ input[type="checkbox"]:checked::before {
   
 }
 
+@media screen and (width: 414px) {
+ 
+  .footer-form-container {
+    margin-left: -39%;
+  }
+  .form-submit-btn {
+    margin-left: 9%;
+  }
+}
+
 @media screen and (max-width: 400px) {
     .contact-container {
       width: 41%;
@@ -254,6 +264,7 @@ input[type="checkbox"]:checked::before {
     }
   }
 }
+
 @media screen and (max-width: 320px) {
   .contact-container {
     width: 40%;

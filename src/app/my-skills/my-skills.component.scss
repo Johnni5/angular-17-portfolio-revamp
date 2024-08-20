@@ -249,6 +249,19 @@
   }
 }
 
+@media screen and (width: 414px) {
+  .my-skills-container {
+    width: 397px;
+  }
+  .my-skills-table {
+    top: 51px;
+    left: 79px;
+  }
+  .skills-row-1 img,.skills-row-2 img,.skills-row-3 img {
+    width: 23%;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .my-skills-txt {
     left: -1%;

@@ -275,6 +275,21 @@ p {
   }
 }
 
+@media screen and (width: 414px) {
+  .font-title {
+    font-size: 45px;
+  }
+  .portfolio-img {
+    margin-left: -7%;
+    width: 340px;
+    // margin-top: 2%;
+  }
+  .portfolio-img-2 {
+    margin-left: -8%;
+    width: 350px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .portfolio-img-2 {
     margin-left: -8%;

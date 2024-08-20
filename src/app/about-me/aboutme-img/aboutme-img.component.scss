@@ -97,6 +97,13 @@
   }
 }
 
+@media screen and (width: 414px) {
+  .aboutme-img-container img {
+    width: 370px;
+    margin-left: -18%;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .aboutme-img-container img {
     width: 380px;
