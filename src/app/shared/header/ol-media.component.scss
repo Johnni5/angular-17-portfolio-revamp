@@ -31,14 +31,55 @@
  
 }
 
+@media screen and (width: 657px) {
+  .ol-link-row {
+    margin-left: 13%;
+  }
+  .ol-main-section {
+    left: -14px;
+  }
+}
+
+@media screen and (min-width: 601px)and (max-width: 656px)  {
+  .ol-main-section {
+    width: 120%;
+    left: 0px !important;
+  }
+  .ol-link-row {
+    margin-left: 6%;
+    >a {
+      font-size: 53px;
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
 
   .ol-link-container {
     width: 460px;
     margin-top: 14%;
   }
-  .ol-link-row a {
+  .ol-link-row {
     font-size: 48px;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (width: 567px) {
+  .ol-link-row {
+    margin-left: 22%;
+  }
+}
+
+@media screen and (min-width: 415px)and (max-width: 599px) {
+  .ol-main-section {
+    left: 0% !important;
+  }
+  .ol-link-row {
+    margin-left: 22%;
+    >a {
+      font-size: 36px;
+    }
   }
 }
 
@@ -56,20 +97,48 @@
   }
 }
 
+@media screen and (min-width: 402px)and (max-width: 413px) {
+  .ol-main-section {
+    left: 0% !important;
+  }
+  .ol-link-row {
+    margin-left: 22%;
+    >a {
+      font-size: 35px;
+    }
+  }
+}
+
 @media screen and (max-width: 400px) {
 
   .ol-main-section {
-    left: 0%;
+    left: 0% !important;
   }
   .ol-link-row {
     width: 79%;
-    margin-left: -6%;
+    margin-left: 23%;
     line-height: 1px;
+    >a {
+      font-size: 34px;
+    }
   }
   .ol-start-angle {
     margin-top: -16%;
   }
   
+}
+
+@media screen and (min-width: 376px)and (max-width: 399px) {
+
+  .ol-main-section {
+    left: 0% !important;
+  }
+  .ol-link-row {
+    margin-left: 25%;
+    >a {
+      font-size: 31px;
+    }
+  }
 }
 
 @media screen and (width: 375px) {
@@ -84,13 +153,41 @@
   } }
 }
 
+@media screen and (min-width: 342px) and (max-width: 374px) {
+  .ol-main-section {
+    left: 0% !important;
+  }
+  .ol-link-row {
+    margin-left: 29%;
+    >a {
+      font-size: 27px;
+    }
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 341px) {
+  .ol-main-section {
+    left: 0% !important;
+  }
+  .ol-link-row {
+    margin-left: 36%;
+  }
+  .ol-link-row a {
+    font-size: 23px;
+  }
+}
+
 @media screen and (max-width: 320px) {
 
   .ol-link-row {
+    margin-left: 30%;
     width: 370px;
     >a {
       font-size: 27px;
     }
+  }
+  .ol-main-section {
+    left: -4px !important;
   }
 
 }

@@ -215,6 +215,12 @@ input[type="checkbox"]:checked::before {
   }
 }
 
+@media screen and (min-width: 603px)and (max-width: 699px) {
+  .footer-form-container {
+    width: 27.563rem !important;
+  }
+} 
+
 @media screen and (max-width: 600px) {
   .footer-form-container {
     width: 182%;

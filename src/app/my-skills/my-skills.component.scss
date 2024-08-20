@@ -124,6 +124,12 @@
   }
 }
 
+@media screen and (min-width: 1201px) and (max-width: 1786px) {
+  .my-skills-table {
+    left: -60px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .my-skills-container {
     width: 1114px;
@@ -300,6 +306,9 @@
     margin-left: 55%;
     margin-top: -81%;
   }
+  .skills-row-1 img, .skills-row-2 img, .skills-row-3 img {
+    width: 21%;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -328,5 +337,8 @@
   .skills-row-3 {
     margin-left: 39%;
     margin-top: -90%;
+  }
+  .skills-row-1 img, .skills-row-2 img, .skills-row-3 img {
+    width: 22%;
   }
 }

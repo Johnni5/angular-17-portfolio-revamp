@@ -193,8 +193,9 @@
   }
   .header-icons {
     // width: 70%;
-    gap: 56%;
-    padding-left: 6%;
+    gap: 38%;
+    padding-left: 0%;
+    margin-left: -6%;
   }
 }
 
@@ -208,8 +209,8 @@
 @media screen and (max-width: 320px) {
   .header-icons {
     width: 77%;
-    padding-left: 8%;
-    gap: 35%;
+    padding-left: 15%;
+    gap: 40%;
   }
   .burger-btn {
     left: 1%;
@@ -218,5 +219,8 @@
     width: 100%;
     height: 105px;
     margin-top: -17%;
+  }
+  .header-language {
+    gap: 6px;
   }
 }

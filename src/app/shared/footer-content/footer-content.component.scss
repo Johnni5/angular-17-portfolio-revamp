@@ -159,6 +159,17 @@ h2 {
   text-align: center;
 }
 
+/* UP-ARROW */
+
+.up-arrow-container {
+  margin-top: -6%;
+  margin-left: 81%;
+  scroll-behavior: smooth;
+  >img {
+    cursor: pointer;
+  }
+}
+
 /* MEDIA */
 
 @media screen and (width: 4000px) {
@@ -213,6 +224,8 @@ h2 {
  
 }
 
+
+
 @media screen and (max-width: 600px) {
   .footer-container {
     // width: 36.25em;
@@ -246,6 +259,9 @@ h2 {
   p {
     width: 330px;
     margin-left: 16%;
+  }
+  .up-arrow-container {
+    display: none;
   }
   .footer-link-imprint {
     margin-left: 85%;
