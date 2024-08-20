@@ -38,6 +38,17 @@ footer {
 
 /* MEDIA */
 
+@media screen and (width: 4000px) {
+  .paper-class {
+    gap: 6%;
+    justify-content: space-evenly;
+  }
+  .left-footer-icons img, .right-footer-icons img {
+    scale: 1.4;
+    padding-right: 26px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   footer {
     margin-top: 10%;

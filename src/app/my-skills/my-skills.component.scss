@@ -107,13 +107,20 @@
 
 @media screen and (width: 4000px) {
   .my-skills-table {
-    left: 724px;
+    left: 142px;
   }
   .my-skills-txt {
     margin-left: 15.5%;
+    scale: 1.4;
   }
   .skills-extra-contact {
-    left: 37%;
+    left: 27%;
+  }
+  .my-skills-container {
+    width: 32%;
+  }
+  #myskills {
+    scale: 1.5;
   }
 }
 

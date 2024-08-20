@@ -19,6 +19,7 @@ body {
   // max-width: 1440px;
   // width: 100%;
   overflow-x: hidden;
+  scrollbar-width: none;
 }
 
 body.overlay-active {
@@ -93,6 +94,14 @@ h1, h2, p, h3 {
 }
 
 /* MEDIA */
+
+@media screen and (width: 4000px) {
+  .footer-imprint {
+    scale: 1.5;
+    padding-bottom: 166px;
+  }
+  
+}
 
 @media screen and (width: 375px) {
   .footer-imprint {

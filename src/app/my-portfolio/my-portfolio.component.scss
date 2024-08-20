@@ -100,6 +100,16 @@ p {
 
 /* MEDIA */
 
+@media screen and (width: 4000px) {
+  .font-title {
+    // scale: 1.4;
+  }
+  .portfolio-container {
+    scale: 1.95;
+    margin-top: 26%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   h2, p {
     margin-left: -26%;

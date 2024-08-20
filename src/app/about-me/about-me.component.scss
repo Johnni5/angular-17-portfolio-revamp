@@ -20,6 +20,12 @@
 
 /* MEDIA */
 
+@media screen and (width: 4000px) {
+  .aboutme-container {
+    scale: 1.6;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .aboutme-container {
     width: 1129px;
