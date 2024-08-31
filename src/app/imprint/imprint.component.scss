@@ -82,7 +82,13 @@ h1 {
 }
 
 @media screen and (width: 375px) {
- 
+}
+
+@media screen and (width: 333px) {
+  .footer-txt footer {
+    margin-left: 3% !important;
+    width: 94% !important;
+  }
 }
 
 @media screen and (max-width: 320px) {

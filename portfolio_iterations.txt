@@ -31,13 +31,59 @@
 
 
 
+#4 iteration : Frederic ->
+
+* 4000px -Check
+* 3706px -Check
+* 320px Feintuning -Check
+* 333px skill-icons u. ä. -Check
+* SE - 375px -Header -Check
+* 633px - title u. checken -Check
 
 
 
+#4 iteration : Frederic ->
+
+* norm size - l+r more to the left..?
+* norm size - sep-line
+* norm size - header bg - overall
+* norm size - skills-title - overflow
+* black bg - to the frame
+* 4000 - black overflow?
+* 4000 - header??
+* 
 
 
 
+#5 iteration : Björn ->
+ abgabe nr 6
+ 
+* 320px -gecheckt
+* 375px -gecheckt
+* 414px -gecheckt
+* 633px -gecheckt
+* 700px -gecheckt
+* 800px -gecheckt
+* 900px -gecheckt
+* 1000px -gecheckt
+* 1100px -gecheckt
+* 1200px -gecheckt
+* 3106px -gecheckt
+* 3706px -gecheckt
+* 4000px -gecheckt
+* 80000px -gecheckt
 
 
 
-
+#6 iteration : Fred ->
+ abgabe nr 7
+ 
+* 912px - font-size
+* 810px
+* 615px
+* header ab 754px -?
+* header ab 692
+* 446/423 - title
+* skills 819/650/ bis 608?
+* 604 generell? skills?
+* 

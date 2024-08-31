@@ -7,7 +7,10 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [RouterLink, TranslateModule],
   templateUrl: './my-skills.component.html',
-  styleUrl: './my-skills.component.scss'
+  styleUrls: [
+    './my-skills.component.scss',
+    './my-skills.media.component.scss'
+  ]
 })
 export class MySkillsComponent {
 

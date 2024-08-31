@@ -20,6 +20,9 @@ body {
   // width: 100%;
   overflow-x: hidden;
   scrollbar-width: none;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body.overlay-active {
@@ -95,11 +98,24 @@ h1, h2, p, h3 {
 
 /* MEDIA */
 
+@media screen and (width: 8000px) {
+  .footer-imprint {
+    width: 120em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media screen and (width: 4000px) {
   .footer-imprint {
-    scale: 1.5;
-    padding-bottom: 166px;
+    // scale: 1.5;
+    // padding-bottom: 166px;
+    
   }
+  
+}
+
+@media screen and (width: 333px) {
   
 }
 

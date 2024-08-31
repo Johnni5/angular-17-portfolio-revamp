@@ -10,7 +10,10 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [CommonModule, RouterLink, FormsModule, NgIf, TranslateModule],
   templateUrl: './contact-form.component.html',
-  styleUrl: './contact-form.component.scss'
+  styleUrls: [
+    './contact-form.component.scss',
+    './contact-form.media.component.scss',
+  ] 
 })
 export class ContactFormComponent {
 

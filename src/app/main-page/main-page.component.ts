@@ -28,7 +28,11 @@ import { TranslateModule } from '@ngx-translate/core';
     TranslateModule
   ],
   templateUrl: './main-page.component.html',
-  styleUrls: ['./main-page.component.scss', './main-page.responsive.scss'],
+  styleUrls: [
+    './main-page.component.scss', 
+    './main-page.responsive.scss',
+    './main-page.responsive2.scss',
+  ],
   
 })
 

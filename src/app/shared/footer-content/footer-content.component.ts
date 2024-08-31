@@ -11,7 +11,10 @@ import { ImprintComponent } from '../../imprint/imprint.component';
   standalone: true,
   imports: [CommonModule, RouterLink, ContactFormComponent, TranslateModule, FooterComponent, ImprintComponent],
   templateUrl: './footer-content.component.html',
-  styleUrl: './footer-content.component.scss'
+  styleUrls: [
+    './footer-content.component.scss',
+    './footer-content.media.component.scss'
+  ]
 })
 export class FooterContentComponent {
 

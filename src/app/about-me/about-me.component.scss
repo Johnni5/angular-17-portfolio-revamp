@@ -22,7 +22,8 @@
 
 @media screen and (width: 4000px) {
   .aboutme-container {
-    scale: 1.6;
+    scale: 1.4;
+    margin-top: 43%;
   }
 }
 
@@ -30,6 +31,13 @@
   .aboutme-container {
     width: 1129px;
     margin-top: 18%;
+    scale: 0.9;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .aboutme-container {
+    scale: 0.8;
   }
 }
 
@@ -38,6 +46,12 @@
     margin-top: 28%;
     margin-left: 18%;
   }  
+}
+
+@media screen and (width: 881px) {
+  .aboutme-container {
+    margin-left: 13%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -50,6 +64,12 @@
     align-items: center;
   }
  
+}
+
+@media screen and (width: 633px) {
+  .aboutme-container {
+    margin-top: 80%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -69,8 +89,15 @@
   }
 }
 
+@media screen and (width: 333px) {
+  .aboutme-container {
+    margin-top: 140%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .aboutme-container {
     margin-top: 130%;
+    margin-left: 13%;
   }
 }

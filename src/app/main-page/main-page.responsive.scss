@@ -1,21 +1,29 @@
+@media screen and (width: 8000px) {
+  .atf-text {
+    padding-top: 650px;
+  }
+}
+
 @media screen and (width: 4000px) {
   .sep-line {
-    margin-left: 38%;
+    margin-left: 16%;
     scale: 1.4;
-    margin-top: 2%;
+    margin-top: 3%;
   }
   .atf-email {
-    margin-top: -6%;
+    margin-top: -13%;
     scale: 1.8;
-    margin-left: 14%;
+    margin-left: -1%;
   }
   .down-arrow {
-    margin-top: -27%;
+    margin-top: -56%;
     scale: 1.6;
+    margin-left: 88%;
   }
   .atf-text {
-    scale: 1.6;
+    scale: 1.5;
     margin-top: 721px;
+    margin-left: -11%;
   }
 }
 
@@ -58,6 +66,27 @@
  
 }
 
+@media screen and (max-width: 1100px) {
+  .vector-line {
+    width: 411px;
+  }
+  .sep-line {
+    margin-left: 6%;
+    width: 93%;
+    margin-top: -6%;
+  }
+  .atf-name {
+    margin-left: -1%;
+  }
+  .down-arrow {
+    margin-top: -40%;
+  }
+  .atf-email {
+    margin-top: -18%;
+    margin-left: 1%;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .second-line {
     margin-left: -9%;
@@ -71,11 +100,37 @@
     margin-right: 86px;
   }
   .down-arrow {
-    margin-top: -51%;
+    margin-top: -44%;
   }
   .atf-email {
-    margin-top: -19%;
-    margin-left: -10%;
+    margin-top: -20%;
+    margin-left: -6%;
+  }
+}
+
+@media screen and (width: 900px) {
+  .first-line, .second-line {
+    font-size: 90px;
+  }
+  .vector-line {
+    width: 360px;
+  }
+}
+
+@media screen and (width: 881px) {
+  .second-line {
+    margin-left: -5%;
+  }
+  .first-line, .second-line {
+    font-size: 84px;
+  }
+  .vector-line {
+    width: 303px;
+    margin-right: 37px;
+    margin-top: 2%;
+  }
+  .sep-line {
+    margin-left: 3%;
   }
 }
 
@@ -142,194 +197,21 @@
   
 }
 
-@media screen and (max-width: 600px) {
-  section {
-    width: 70%;
-    top: 120px;
-  }
-  .fontSyne {
-    font-size: 54px;
-    line-height: 56px;
-    margin-left: 1%;
-  }
-  .atf-name {
-    font-size: 28px;
-    width: 62%;
-  }
-  .sep-line {
-    width: 112%;
-    margin-left: -8%;
-    margin-top: 1%;
-  }
-  .vector-line {
-    // width: 43%;
-    width: 56%; // due to o ver lenbgth..?;
-    margin-right: 13px;
-  }
-  .down-arrow {
-    margin-top: -59%;
-    width: 60px;
-    height: 120px;
-    > img {
-      width: 60px;
-      height: 90px;
-    }
-    > p {
-      width: 30px;
-      height: 22px;
-      font-size: 16px;
-    }
-  }
-  .atf-email {
-    margin-top: -29%;
-    margin-left: -17%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .atf-text h1{
-    font-size: 50px;
-  }
-  .sep-line {
-    margin-left: -16%;
-    width: 162%;
-  }
-  .down-arrow {
-    margin-top: -71%;
-  }
-  .atf-email {
-    margin-top: -35%;
-    margin-left: -26%;
-  }
-  .atf-name {
-    width: 92%;
-  }
-}
-
-@media screen and (width: 414px) {
-  .atf-text h1{
-    font-size: 41px;
-  }
-  .sep-line {
-    margin-left: -16%;
-    width: 133%;
-  }
-  .down-arrow {
-    margin-top: -85%;
-  }
-  .atf-email {
-    margin-top: -41%;
-  }
-  // .atf-name {
-  //   width: 92%;
-  // }
-}
-
-@media screen and (max-width: 400px) {
-  section {
-    width: 60%;
-    top: 100px;
-  }
-  .fontSyne {
-    font-size: 40px;
-    line-height: 40px;
-  }
-  .atf-name {
-    font-size: 24px;
-  }
-  .sep-line {
-    margin-top: 5%;
-    margin-left: -25%;
-  }
-  .vector-line {
-    width: 60%;
-  }
-  .down-arrow {
-    margin-top: -80%;
-    width: 40px;
-    height: 80px;
-    align-items: baseline;
-    margin-left: 86%;
-    > img {
-      width: 40px;
-      height: 60px;
-    }
-    > p {
-      width: 20px;
-      height: 16px;
-      font-size: 14px;
-    }
-  }
-  .atf-email {
-    margin-top: -40%;
-    margin-left: -32%;
-  }
-  .atf-text {
-    margin-left: 3%;
-    >h1 {
-      font-size: 41px;
-    }
-  }
-  
-}
-
-@media screen and (width: 375px) {
-  p {
-    font-size: 21px;
-    margin-left: 5%;
-  }
+@media screen and (width: 633px) {
   .atf-text h1 {
-    font-size: 36px;
-  }  
-  .down-arrow {
-    margin-top: -86%;
-  }
-  .atf-email {
-    margin-top: -42%;
-    margin-left: -34%;
-  }
-
-}
-
-@media screen and (max-width: 320px) {
-  section {
-    width: 90%;
-    top: 80px;
-  }
-  .fontSyne {
-    font-size: 32px !important;
-    line-height: unset;
+    font-size: 64px;
   }
   .atf-name {
-    font-size: 20px;
-  }
-  .atf-text {
-    margin-left: 4%;
-    font-size: 41px !important;
-  }
-  .sep-line {
-    margin-left: 2%;
-  }
-  .vector-line {
-    width: 20%;
-  }
-  .down-arrow {
-    margin-top: -115%;
-    margin-left: 85%;
-    width: 30px;
-    height: 60px;
-    > img {
-      width: 30px;
-      height: 45px;
-    }
-    > p {
-      width: 15px;
-      height: 12px;
-      font-size: 12px;
-    }
+    width: 60%;
   }
   .atf-email {
-    margin-top: -49%;
-    margin-left: -40%;
+    margin-top: -28%;
+    margin-left: -15%;
+  }
+  .sep-line {
+    margin-left: -7%;
+  }
+  .down-arrow {
+    margin-top: -61%;
   }
 }

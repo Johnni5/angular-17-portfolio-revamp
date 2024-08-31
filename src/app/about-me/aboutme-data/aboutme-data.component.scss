@@ -164,6 +164,22 @@
   }  
 }
 
+@media screen and (width: 333px) {
+  h2 {
+    margin-left: 10%;
+  }
+  p {
+    margin-left: 12%;
+    width: 322px;
+  }
+  .aboutme-data-container img {
+    display: none;
+  }
+  .icon-txt {
+    margin-left: -9.5%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   h2 {
     font-size: 31px;
@@ -172,7 +188,7 @@
     text-align: center;
   }
   p {
-    width: 300px;
+    width: 290px;
     margin-left: -69%;
   }
   .talk-btn {
