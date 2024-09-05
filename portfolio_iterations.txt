@@ -77,6 +77,28 @@
 
 #6 iteration : Fred ->
  abgabe nr 7
+
+* 320px -Check
+* 333px -Check
+* 375px -Check
+* 400px -Check
+* 414px -Check
+* 500px -Check
+* 550px -Check
+* 600px -Check
+* 650px -Check
+* 700px -
+* 750px -
+* 800px -
+* 850px -
+* 900px -
+* 950px -
+* 1000px -
+* 1050px -
+* 1100px -
+* 1150px -
+* 1200px -
+* 
  
 * 912px - font-size
 * 810px
@@ -87,3 +109,23 @@
 * skills 819/650/ bis 608?
 * 604 generell? skills?
 * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -75,7 +75,7 @@
     width: 100%;
   }
   .aboutme-data {
-    margin-left: -62%;
+    margin-left: -72%;
   }
   .talk-btn {
     left: 59%;
@@ -86,6 +86,13 @@
   }
   .icon-txt {
     margin-left: 11%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  h2 {
+    margin-left: 47%;
+    text-align: center;
   }
 }
 

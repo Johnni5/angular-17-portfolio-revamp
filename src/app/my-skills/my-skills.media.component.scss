@@ -150,6 +150,21 @@
   
 }
 
+@media screen and (max-width: 650px) {
+  .my-skills-container {
+    width: 624px;
+  }
+  .my-skills-table {
+    left: 61px;
+    margin-top: -9px;
+  }
+  .skills-extra-contact {
+    flex-direction: column;
+    top: 77%;
+    left: 6%;
+  }
+}
+
 @media screen and (width: 633px) {
   .my-skills-container {
     width: 604px;
@@ -202,6 +217,12 @@
   .my-skills-table {
     top: 68px;
     left: 113px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .my-skills-table {
+    left: 93px;
   }
 }
 

@@ -50,6 +50,13 @@
   }
 } 
 
+@media screen and (max-width: 650px) {
+  .contactform-policy-check {
+    margin-left: 18%;
+    width: 120%;
+  }
+}
+
 @media screen and (width: 633px) {
   .footer-form-container {
     margin-left: -31%;
@@ -102,6 +109,9 @@
     }
     .form-submit-btn {
       margin-left: 12%;
+    }
+    .footer-form-container {
+      margin-left: -47%;
     }
 }
 

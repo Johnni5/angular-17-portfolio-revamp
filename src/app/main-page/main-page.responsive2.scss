@@ -1,3 +1,15 @@
+@media screen and (max-width: 650px) {
+ 
+  .atf-name {
+    width: 50%;
+  }
+  .sep-line {
+    margin-left: -5%;
+  }
+  .fontSyne {
+    font-size: 62px;
+  }
+}
 
 @media screen and (max-width: 600px) {
   section {
@@ -40,6 +52,16 @@
   .atf-email {
     margin-top: -29%;
     margin-left: -17%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .atf-name {
+    width: 73%;
+  }
+  .sep-line {
+    width: 132%;
+    margin-left: -10%;
   }
 }
 
