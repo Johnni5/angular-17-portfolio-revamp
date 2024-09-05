@@ -95,6 +95,9 @@
   .portfolio-img-2 {
     margin-left: -9%;
   }
+  .portfolio-container {
+    margin-left: -3%;
+  }
 }
 
 @media screen and (width: 414px) {
@@ -109,6 +112,9 @@
   .portfolio-img-2 {
     margin-left: -8%;
     width: 350px;
+  }
+  .portfolio-container {
+    margin-left: -1%;
   }
 }
 
@@ -128,6 +134,7 @@
   }
   .portfolio-container {
     margin-top: -40px;
+    margin-left: -1%;
   }
 }
 
@@ -146,6 +153,9 @@
     font-size: 35px;
     margin-left: -26%;
   }
+  .portfolio-container {
+    margin-left: -1%;
+  }
 }
 
 @media screen and (width: 333px) {
@@ -162,6 +172,9 @@
   .project-data-container h2 {
     font-size: 32px;
   }
+  .portfolio-container {
+    margin-left: -3%;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -173,10 +186,10 @@
   }
   .font-title {
     font-size: 37px;
-    margin-left: 0.5%;
+    margin-left: -5%;
   }
   .sub-p {
-    margin-left: 0%;
+    margin-left: -7%;
     width: 90%;
   }
   .project-data-container {
