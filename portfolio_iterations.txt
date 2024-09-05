@@ -85,17 +85,17 @@
 * 414px -Check
 * 500px -Check
 * 550px -Check
-* 600px -Check
-* 650px -Check
-* 700px -Check
-* 750px -Check
-* 800px -Check
-* 850px -Check
-* 900px -Check
-* 950px -Check
-* 1000px -Check
-* 1050px -
-* 1100px -
+* 600px -Check ++
+* 650px -Check ++
+* 700px -Check ++
+* 750px -Check ++
+* 800px -Check ++
+* 850px -Check ++
+* 900px -Check ++
+* 950px -Check ++
+* 1000px -Check ++
+* 1050px -Check ++
+* 1100px -Check ++
 * 1150px -
 * 1200px -
 * 

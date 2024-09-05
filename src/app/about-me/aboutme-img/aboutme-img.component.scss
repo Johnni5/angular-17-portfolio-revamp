@@ -39,6 +39,12 @@
 
 /* MEDIA */
 
+@media screen and (max-width: 1050px) {
+  .aboutme-img {
+    margin-top: -23%;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .aboutme-img-container img {
     width: 370px;
@@ -74,6 +80,11 @@
 @media screen and (max-width: 600px) {
   .aboutme-img {
     margin-left: -11%;
+  }
+  .aboutme-img-container img {
+    margin-top: 65%;
+    margin-left: -31%;
+    scale: 1.2;
   }
   .aboutme-img-container:hover::after{
     top: -184px;

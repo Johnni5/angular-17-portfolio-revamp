@@ -71,7 +71,7 @@
     width: 411px;
   }
   .sep-line {
-    margin-left: 6%;
+    margin-left: 9%;
     width: 93%;
     margin-top: -6%;
   }
@@ -84,6 +84,16 @@
   .atf-email {
     margin-top: -18%;
     margin-left: 1%;
+  }
+  .atf-text {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    /* text-align: center; */
+    margin-left: 4%;
+    /* margin-right: auto; */
+    margin-top: 201px;
+    /* justify-content: center; */
   }
 }
 

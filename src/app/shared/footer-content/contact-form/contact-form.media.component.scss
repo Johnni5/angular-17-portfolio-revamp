@@ -20,20 +20,38 @@
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .footer-form-container {
+    margin-left: -38%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .footer-form-container {
+    margin-left: -33%;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .footer-form-container {
     width: 38.563rem;
     height: 30.625rem;
-    margin-left: -20%;
+    margin-left: -37%;
   }
   .contactform-policy-check {
     margin-left: 26%;
   }
 }
 
+@media screen and (max-width: 950px) {
+  .footer-form-container {
+    margin-left: -39%;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .footer-form-container {
-    margin-left: -28%;
+    margin-left: -42%;
   }
 }
 
@@ -45,20 +63,20 @@
 
 @media screen and (max-width: 850px) {
   .footer-form-container {
-    margin-left: -32%;
+    margin-left: -46%;
   }
 }
 
 @media screen and (max-width: 800px) {
   .footer-form-container {
     width: 33.563rem;
-    margin-left: -25%;
+    margin-left: -41%;
   }
 }
 
 @media screen and (max-width: 700px) {
   .footer-form-container {
-    margin-left: -34%;
+    margin-left: -54%;
   }
 }
 
@@ -72,6 +90,10 @@
   .contactform-policy-check {
     margin-left: 18%;
     width: 120%;
+  }
+  .footer-form-container {
+    margin-left: -38%;
+    width: 27rem;
   }
 }
 

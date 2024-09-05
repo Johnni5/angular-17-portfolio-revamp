@@ -37,7 +37,8 @@
 
 @media screen and (max-width: 1100px) {
   .aboutme-container {
-    scale: 0.8;
+    margin-left: 4%;
+    scale: 0.75;
   }
 }
 
@@ -52,14 +53,14 @@
 @media screen and (max-width: 950px) {
   .aboutme-container {
     margin-top: 14%;
-    margin-left: 16%;
+    margin-left: 19%;
   }
 }
 
 @media screen and (max-width: 900px) {
   .aboutme-container {
     margin-top: 16%;
-    margin-left: 14%;
+    margin-left: 18%;
   }
 }
 
@@ -72,7 +73,8 @@
 @media screen and (max-width: 850px) {
   .aboutme-container {
     margin-top: 12%;
-    margin-left: 10%;
+    margin-left: 14%;
+    scale: 0.9;
   }
 }
 
@@ -84,6 +86,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 21%;
+    scale: 0.8;
   }
   .aboutme-img-container {
     margin-top: -57%;
@@ -101,6 +105,14 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .aboutme-container {
+    width: 89%;
+    margin-left: 27%;
+    scale: 0.7;
+  }
+}
+
 @media screen and (width: 633px) {
   .aboutme-container {
     margin-top: 80%;
@@ -109,7 +121,9 @@
 
 @media screen and (max-width: 600px) {
   .aboutme-container {
-    margin-top: 90%;
+    margin-top: 50%;
+    margin-left: 30%;
+    scale: 1.1;
   }
   
 }

@@ -82,6 +82,22 @@
     width: 450px;
     height: 313px;
   }
+  .portfolio-container {
+    margin-left: -8%;
+    scale: 0.9;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .portfolio-container {
+    margin-left: -9%;
+  }
+  .font-title {
+    margin-left: 29%;
+  }
+  .sub-p {
+    margin-left: 19%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -115,7 +131,7 @@
 
 @media screen and (max-width: 950px) {
   .portfolio-container {
-    margin-left: -6%;
+    margin-left: -4%;
   }  
   .portfolio-img {
     margin-left: -6%;
@@ -141,13 +157,14 @@
     margin-left: 7%;
   }
   .portfolio-container {
-    margin-left: -7%;
+    margin-left: -5%;
   }
 }
 
 @media screen and (max-width: 850px) {
   .portfolio-container {
-    margin-left: -8%;
+    margin-left: -5%;
+    scale: 0.8;
   }
   .portfolio-img {
     width: 335px;
@@ -191,10 +208,10 @@
     width: unset;
   }
   .font-title {
-    margin-left: 9%;
+    margin-right: auto;
   }
   .sub-p {
-    margin-left: 9%;
+    margin-left: 10%;
   }
   .project-data-button {
     width: 119px;
