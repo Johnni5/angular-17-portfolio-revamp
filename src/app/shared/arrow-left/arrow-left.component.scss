@@ -41,14 +41,21 @@
 @media screen and (max-width: 1000px) {
   .arrow-left-container {
     margin-top: 10%;
-    margin-left: 70%;
+    margin-left: 69%;
   }  
+}
+
+@media screen and (max-width: 950px) {
+  .arrow-left-container {
+    margin-top: 0%;
+    margin-left: 66%;
+  }
 }
 
 @media screen and (max-width: 900px) {
   .arrow-left-container {
-    margin-left: 74%;
-    margin-top: 7%;
+    margin-left: 67%;
+    margin-top: 1%;
   }
 }
 
@@ -59,16 +66,30 @@
   }
 }
 
+@media screen and (max-width: 850px) {
+  .arrow-left-container {
+    margin-left: 65%;
+    margin-top: -1%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .arrow-left-container {
-    margin-left: 68%;
-    margin-top: 16%;
+    margin-left: 66%;
+    margin-top: -9%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .arrow-left-container {
+    margin-left: 64%;
+    margin-top: -13%;
   }
 }
 
 @media screen and (width: 700px) {
   .arrow-left-container {
-    margin-left: 66%;
+    margin-left: 63%;
     margin-top: 18%;
   }
 }

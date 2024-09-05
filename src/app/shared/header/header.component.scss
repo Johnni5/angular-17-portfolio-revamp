@@ -190,7 +190,28 @@
   .burger-btn {
     left: 1px;
   }
+  .header-icons {
+    gap: 91%;
+    /* padding-left: 0%; */
+    margin-left: -6%;
+  }
   
+}
+
+@media screen and (max-width: 750px) {
+  .header-icons {
+    gap: 91%;
+    /* padding-left: 0%; */
+    margin-left: -7%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header-icons {
+    gap: 81%;
+    /* padding-left: 0%; */
+    margin-left: -4%;
+  }
 }
 
 @media screen and (max-width: 650px) {

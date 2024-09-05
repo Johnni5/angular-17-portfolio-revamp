@@ -73,11 +73,37 @@
     width: 964px;
   }  
   .my-skills-txt {
-    left: 5%;
+    /* left: 5%; */
     margin-top: -7%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
   }
   .my-skills-table {
     left: 26px;
+  }
+  .skills-extra-contact {
+    left: 19%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .my-skills-txt {
+    margin-left: 2%;
+    /* border: tomato 1px solid; */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .my-skills-container {
+    width: 926px;
+  }
+  .my-skills-table {
+    left: 17px;
+  }
+  .skills-extra-contact {
+    left: 18%;
   }
 }
 
@@ -110,6 +136,23 @@
     left: 15%;
   }
   
+}
+
+@media screen and (max-width: 850px) {
+  .my-skills-txt {
+    font-size: 67px;
+    margin-left: 9%;
+  }
+  .my-skills-container {
+    width: 833px;
+  }
+  .my-skills-table {
+    left: -32px;
+    top: 100px;
+  }
+  .skills-extra-contact {
+    left: 14%;
+  }
 }
 
 @media screen and (max-width: 800px) {

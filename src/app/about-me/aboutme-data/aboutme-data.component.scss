@@ -57,6 +57,13 @@
   }
   .aboutme-data {
     margin-top: 25%;
+    margin-left: -116%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .aboutme-data {
+    margin-left: -107%;
   }
 }
 

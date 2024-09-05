@@ -43,9 +43,24 @@
 
 @media screen and (max-width: 1000px) {
   .aboutme-container {
-    margin-top: 28%;
-    margin-left: 18%;
+    margin-top: 13%;
+    margin-left: 21%;
+    scale: 0.95;
   }  
+}
+
+@media screen and (max-width: 950px) {
+  .aboutme-container {
+    margin-top: 14%;
+    margin-left: 16%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .aboutme-container {
+    margin-top: 16%;
+    margin-left: 14%;
+  }
 }
 
 @media screen and (width: 881px) {
@@ -54,16 +69,36 @@
   }
 }
 
+@media screen and (max-width: 850px) {
+  .aboutme-container {
+    margin-top: 12%;
+    margin-left: 10%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .aboutme-container {
     // width: 739px;
     width: 99%;
-    margin-top: 60%;
+    margin-top: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
- 
+  .aboutme-img-container {
+    margin-top: -57%;
+    margin-right: -57%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .aboutme-img-container {
+    margin-top: -62%;
+    margin-right: -61%;
+  }
+  .aboutme-container {
+    margin-top: 26%;
+  }
 }
 
 @media screen and (width: 633px) {

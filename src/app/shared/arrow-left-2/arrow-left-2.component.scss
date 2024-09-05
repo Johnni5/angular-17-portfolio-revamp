@@ -43,17 +43,31 @@
   }  
 }
 
+@media screen and (max-width: 850px) {
+  .arrow-left-2-container {
+    margin-left: 73%;
+    margin-top: -27%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .arrow-left-2-container {
-    margin-left: 72%;
+    margin-left: 67%;
     margin-top: -14%;
   }
   
 }
 
+@media screen and (max-width: 750px) {
+  .arrow-left-2-container {
+    margin-left: 66%;
+    margin-top: -4%;
+  }
+}
+
 @media screen and (width: 700px) {
   .arrow-left-2-container {
-    margin-left: 69%;
+    margin-left: 66%;
     margin-top: -17%;
   }
   

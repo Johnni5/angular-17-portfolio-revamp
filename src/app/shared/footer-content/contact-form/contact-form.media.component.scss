@@ -31,9 +31,21 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .footer-form-container {
+    margin-left: -28%;
+  }
+}
+
 @media screen and (width: 881px) {
   .footer-form-container {
     margin-left: -28%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer-form-container {
+    margin-left: -32%;
   }
 }
 
@@ -41,6 +53,12 @@
   .footer-form-container {
     width: 33.563rem;
     margin-left: -25%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer-form-container {
+    margin-left: -34%;
   }
 }
 

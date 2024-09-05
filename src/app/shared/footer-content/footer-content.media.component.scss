@@ -71,6 +71,9 @@
   .footer-link-imprint {
     margin-left: 83%;
   }
+  .footer-input-container h3, p {
+    margin-left: -7%;
+  }  
 }
 
 @media screen and (width: 881px) {
@@ -82,6 +85,18 @@
   }
   .footer-link-imprint {
     margin-left: 76%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .footer-input-container h3, p {
+    margin-left: -9%;
+  }  
+  .up-arrow-container {
+    margin-left: 78%;
+  }
+  .footer-link-imprint {
+    margin-left: 77%;
   }
 }
 
@@ -102,6 +117,9 @@
 @media screen and (width: 700px) {
   .footer-link-imprint {
     margin-left: 83%;
+  }
+  .footer-input-container h3, p {
+    margin-left: -5%;
   }
 }
 
