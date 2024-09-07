@@ -78,13 +78,14 @@
 #6 iteration : Fred ->
  abgabe nr 7
 
-* 320px -Check
-* 333px -Check
-* 375px -Check
-* 400px -Check
-* 414px -Check
-* 500px -Check
-* 550px -Check
+* 320px -Check ++
+* 333px -Check ++
+* 375px -Check ++
+* 400px -Check ++
+* 414px -Check ++
+* 475px -Check ++
+* 500px -Check ++
+* 550px -Check ++
 * 600px -Check ++
 * 650px -Check ++
 * 700px -Check ++
@@ -96,10 +97,15 @@
 * 1000px -Check ++
 * 1050px -Check ++
 * 1100px -Check ++
-* 1150px -
-* 1200px -
-* 
- 
+* 1150px -Check ++
+* 1200px -Check ++
+
+* 1250px -
+* 4000px -
+* 8000px -
+
+
+-loom 
 * 912px - font-size
 * 810px
 * 615px

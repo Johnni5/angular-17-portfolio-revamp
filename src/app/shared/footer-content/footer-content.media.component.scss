@@ -37,6 +37,9 @@
 }
 
 @media screen and (max-width: 1200px) { 
+  h2 {
+    margin-left: -28%;
+  }
   footer {
     width: 810px;
     left: 16%;
@@ -45,7 +48,18 @@
     margin-left: 82%;
   }
   .footer-container {
-    width: 71.25em;
+    width: 53em;
+    margin-left: 17%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  h2 {
+    padding-left: 30px;
+  }
+  .footer-container {
+    width: 53em;
+    margin-left: 16%;
   }
 }
 
@@ -156,6 +170,7 @@
   .footer-container {
     width: 36em;
     margin-left: 10%;
+    height: 1211px;
   }
 }
 
@@ -215,7 +230,7 @@
 
 @media screen and (max-width: 550px) {
   .footer-container {
-    height: 1241px;
+    height: 1341px;
   }
 }
 
@@ -235,6 +250,10 @@
     width: 330px;
     margin-left: 16%;
   }
+  .footer-input-container h3 {
+    margin-left: 16%;
+    scale: 0.8;
+  }
   .up-arrow-container {
     display: none;
   }
@@ -243,6 +262,8 @@
   }
   .footer-container {
     height: 1231px;
+    width: 92%;
+    margin-left: 5%;
   }
 }
 
@@ -255,20 +276,22 @@
   }
   .footer-container {
     height: 1211px;
+    width: 100%;
+    margin-left: 0%;
   }
 }
 
 @media screen and (max-width: 400px) {
   h2 {
-    margin-left: -5%;
+    margin-left: 1%;
   }
   h3, p {
-    margin-left: 9%;
+    margin-left: 9% !important;
   }
   .footer-container {
-    width: 30.25em;
+    width: 25em;
     height: 1211px;
-
+    margin: auto;
   }
   .footer-link-imprint {
     margin-left: 69%;
@@ -284,7 +307,7 @@
 
 @media screen and (width: 375px) {
   h2 {
-    margin-left: -8%;
+    margin-left: -1%;
     padding-top: 86px;
   }
   h3 {
@@ -292,31 +315,41 @@
   }  
   .footer-container {
     height: 1071px;
+    width: 23.7em;
+    margin: auto;
   }
   .footer-link-imprint {
-    margin-left: 65%;
+    margin-left: 81%;
+  }
+  .footer-input-container h3 {
+    margin-left: 7%;
+    
   }
 }
 
 @media screen and (width: 333px) {
   h2 {
     font-size: 49px;
+    margin-left: 2%;
   }
   h3, p {
     margin-left: 0.5%;
   }
   .footer-container {
     height: 1231px;
+    width: 20.9em;
+    margin: auto;
   }
   .footer-link-imprint {
-    margin-left: 55%;
+    margin-left: 79%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer-container {
-    width: 19.85em;
+    width: 20em;
     height: 1201px;
+    margin: auto;
   }
   h2 {
     padding-left: 18px;

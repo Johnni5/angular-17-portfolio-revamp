@@ -23,12 +23,18 @@
 
 @media screen and (max-width: 1200px) {
   .arrow-left-container {
-    margin-left: 75%;
+    margin-left: 71%;
     height: auto;
     width: fit-content;
     margin-top: 0%;
   }
   
+}
+
+@media screen and (max-width: 1150px) {
+  .arrow-left-container {
+    margin-left: 71%;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -118,20 +124,26 @@
 @media screen and (max-width: 550px) {
   .arrow-left-container {
     margin-left: 52%;
-    margin-top: 22%;
+    margin-top: 125%;
   }
 }
 
 @media screen and (max-width: 500px) {
   .arrow-left-container {
     margin-left: 51%;
-    margin-top: 13%;
+    margin-top: 103%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .arrow-left-container {
+    margin-top: 69%;
   }
 }
 
 @media screen and (width: 414px)  {
   .arrow-left-container {
-    margin-top: 56%;
+    margin-top: 106%;
     margin-left: 43%;
   }
 }
@@ -139,20 +151,27 @@
 @media screen and (max-width: 400px) {
   .arrow-left-container {
     margin-left: 44%;
-    margin-top: 41%;
+    margin-top: 91%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .arrow-left-container {
+    margin-left: 40%;
+    margin-top: 101%;
   }
 }
 
 @media screen and (max-width: 333px) {
   .arrow-left-container {
     margin-left: 33%;
-    margin-top: 36%;
+    margin-top: 86%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .arrow-left-container {
-    margin-top: 32%;
+    margin-top: 92%;
     margin-left: 32%;
   }
   

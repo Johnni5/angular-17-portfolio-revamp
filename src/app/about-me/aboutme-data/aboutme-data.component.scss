@@ -69,9 +69,13 @@
 
 @media screen and (max-width: 600px) {
   h2 {
-    font-size: 53px;
-    margin-left: 53%;
-    text-align: -webkit-auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 71%;
+    font-size: 68px;
   }
   p {
     width: 470px;
@@ -98,8 +102,15 @@
 
 @media screen and (max-width: 550px) {
   h2 {
-    margin-left: 47%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70%;
+  }
+  .aboutme-data {
+    scale: 0.9;
+    margin-left: -43%;
   }
 }
 
@@ -125,8 +136,9 @@
     left: 10%;
   }
   .aboutme-data {
-    margin-left: -20%;
-    margin-top: 15%;
+    margin-left: -7%;
+    margin-top: 95%;
+    scale: 0.9;
   }
   .aboutme-data-container {
     margin-left: -2%;
@@ -140,7 +152,9 @@
     width: 380px;
   }
   .aboutme-data {
-    margin-top: 115%;
+    margin-top: 155%;
+    margin-left: -65px;
+    scale: 0.9;
   }
   .talk-btn {
     left: 20%;
@@ -157,7 +171,9 @@
     width: 382px;
   }
   .aboutme-data {
-    margin-top: 95%;
+    margin-top: 125%;
+    scale: 0.8;
+    margin-left: -9%;
   }
   .aboutme-data-container {
     margin-left: 1%;
@@ -176,6 +192,12 @@
   .aboutme-data-container img {
     display: none;
   }  
+  .aboutme-data {
+    margin-top: 130%;
+    margin-left: -10%;
+    scale: 0.9;
+  }
+
 }
 
 @media screen and (width: 333px) {

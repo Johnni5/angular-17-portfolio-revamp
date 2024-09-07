@@ -31,7 +31,14 @@
   .aboutme-container {
     width: 1129px;
     margin-top: 18%;
+    margin-left: 12%;
     scale: 0.9;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .aboutme-container {
+    margin-left: 13%;
   }
 }
 
@@ -144,15 +151,29 @@
   }
 }
 
+@media screen and (max-width: 475px) {
+  .aboutme-container {
+    margin-top: 140%;
+    scale: 0.9;
+    margin-left: 23%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}
+
 @media screen and (width: 333px) {
   .aboutme-container {
     margin-top: 140%;
+    margin-left: 23%;
+    scale: 1;
   }
 }
 
 @media screen and (max-width: 320px) {
   .aboutme-container {
     margin-top: 130%;
-    margin-left: 13%;
+    margin-left: 23%;
+    scale: 1;
   }
 }

@@ -39,6 +39,26 @@
 
 /* MEDIA */
 
+@media screen and (max-width: 1200px) {
+  .aboutme-img {
+    scale: 0.9;
+    margin-left: -9%;
+    margin-top: -27%;
+    transform: translateZ(0);
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .aboutme-img {
+    width: 533px;
+    height: 750px;
+    margin-top: -27%;
+    transform: translateZ(0);
+    scale: 0.9;
+    margin-left: -17%;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .aboutme-img {
     margin-top: -23%;
@@ -77,6 +97,12 @@
  
 }
 
+@media screen and (max-width: 650px) {
+  .aboutme-img-container img {
+    margin-top: -48%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .aboutme-img {
     margin-left: -11%;
@@ -93,11 +119,19 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .aboutme-img-container img {
+    margin-left: -15%;
+    margin-top: 53%;
+    scale: 1.1;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .aboutme-img-container img {
-    width: 410px;
+    width: 380px;
     height: auto;
-    margin-left: -28%;
+    margin-left: -14%;
     margin-top: -56%;
   }
   .aboutme-img-container:hover::after {
@@ -113,18 +147,25 @@
   }
 }
 
+@media screen and (max-width: 475px) {
+  .aboutme-img-container img {
+    margin-left: -25%;
+    margin-top: -41%;
+  }
+}
+
 @media screen and (width: 414px) {
   .aboutme-img-container img {
-    width: 370px;
-    margin-left: -18%;
+    width: 310px;
+    margin-left: -3%;
   }
 }
 
 @media screen and (max-width: 400px) {
   .aboutme-img-container img {
-    width: 380px;
+    width: 280px;
     height: auto;
-    margin-left: -17%;
+    margin-left: 1%;
     margin-top: -56%;
   }
 
@@ -132,15 +173,16 @@
 
 @media screen and (width: 375px) {
   .aboutme-img-container img {
-    margin-left: -13%;
-    width: 360px;
+    margin-left: 2%;
+    width: 290px;
   }
 }
 
 @media screen and (width: 333px) {
   .aboutme-img-container img {
-    width: 320px;
-    margin-left: -6%;
+    width: 290px;
+    margin-left: 0%;
+    margin-top: -50%;
   }
 }
 
@@ -148,10 +190,10 @@
   .aboutme-img-container {
     margin-left: -40%;
     width: 380px;
-    margin-top: -49%;
+    margin-top: -43%;
   }
   .aboutme-img-container img {
-    width: 290px;
-    margin-left: 12%;
+    width: 280px;
+    margin-left: 16%;
   }
 }
