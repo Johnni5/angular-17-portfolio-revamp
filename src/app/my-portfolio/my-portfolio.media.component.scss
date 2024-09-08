@@ -7,7 +7,7 @@
   .portfolio-container {
     scale: 1.6;
     margin-top: 56%;
-    padding-left: 4%;
+    padding-left: 6%;
   }
 }
 
@@ -20,6 +20,69 @@
 @media screen and (max-width: 3106px) {
   .portfolio-container {
     padding-left: 7%;
+  }
+}
+
+@media screen and (width: 1792px) {
+  .portfolio-container {
+    margin-left: 12%;
+  }
+}
+
+@media screen and (width: 1344px) {
+  .portfolio-container {
+    margin-left: 7%;
+  }
+  .font-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -12%;
+  }
+  .sub-p {
+    margin-left: -12%;
+  }
+  .portfolio-img {
+    width: 420px;
+    height: 273px;
+    margin-top: 6%;
+  }
+  .portfolio-img-2 {
+    width: 410px;
+    height: 273px;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .portfolio-container {
+    margin-left: 2%;
+  }
+  .portfolio-img-2 {
+    width: 420px;
+    height: 283px;
+    margin-top: 13%;
+    margin-left: 15%;
+  }
+  .portfolio-img {
+    width: 420px;
+    height: 283px;
+    position: relative;
+    margin-top: 4%;
+  }
+  .font-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -14%;
+    margin-bottom: 0;
+  }
+  .sub-p {
+    margin-left: -14%;
   }
 }
 
@@ -265,10 +328,10 @@
 
 @media screen and (max-width: 750px) {
   .portfolio-container {
-    margin-left: -11%;
+    margin-left: -16%;
   }
   .portfolio-img {
-    margin-left: 17%;
+    margin-left: 28%;
     width: 325px;
     height: 220px;
   }

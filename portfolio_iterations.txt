@@ -78,43 +78,52 @@
 #6 iteration : Fred ->
  abgabe nr 7
 
-* 320px -Check ++
-* 333px -Check ++
-* 375px -Check ++
-* 400px -Check ++
-* 414px -Check ++
-* 475px -Check ++
-* 500px -Check ++
-* 550px -Check ++
-* 600px -Check ++
-* 650px -Check ++
-* 700px -Check ++
-* 750px -Check ++
-* 800px -Check ++
-* 850px -Check ++
-* 900px -Check ++
-* 950px -Check ++
+*  320px -Check ++
+*  333px -Check ++
+*  375px -Check ++
+*  400px -Check ++
+*  414px -Check ++
+*  475px -Check ++
+*  500px -Check ++
+*  550px -Check ++
+*  600px -Check ++
+*  650px -Check ++
+*  700px -Check ++
+*  750px -Check ++
+*  800px -Check ++
+*  850px -Check ++
+*  900px -Check ++
+*  950px -Check ++
 * 1000px -Check ++
 * 1050px -Check ++
 * 1100px -Check ++
 * 1150px -Check ++
 * 1200px -Check ++
-
-* 1250px -
-* 4000px -
-* 8000px -
+* 1250px -Check ++
+* 4000px - fertig x4
+* 1344px -Check(100, 75, 50)
+* 1868px -Check(100,)
+* 1405px -Check(100,)
+* 1792px -Check(100, 75, 50)
+* 2490px -Check(75, 8000)
+* 2688px -Check(50, )
+* 8000px -Check(23, 3736-50, 2490-75, 1868-100)
+* 3736px -
 
 
 -loom 
-* 912px - font-size
-* 810px
-* 615px
-* header ab 754px -?
-* header ab 692
-* 446/423 - title
-* skills 819/650/ bis 608?
-* 604 generell? skills?
+* 912px - font-size -Check
+* 810px - font-size -Check
+* 615px -Check
+* header ab 754px -Check
+* header ab 692 -Check
+* 446/423 - title -Check
+* skills 819/650/ bis 608?  -Check
+* 604 generell? skills? -Check
 * 
+
+
+
 
 
 

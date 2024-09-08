@@ -20,6 +20,24 @@
   }
 }
 
+@media screen and (width: 1792px) {
+  .arrow-right-container {
+    margin-left: 14%;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (width: 1405px) {
+  
+}
+
+@media screen and (max-width: 1250px) {
+  .arrow-right-container {
+    margin-left: 11%;
+    margin-top: 29px;
+  }  
+}
+
 @media screen and (max-width: 1200px) {
   .arrow-right-container {
     margin-left: 14%;

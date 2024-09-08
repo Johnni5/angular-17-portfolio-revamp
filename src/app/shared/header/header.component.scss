@@ -132,6 +132,13 @@
   }
 }
 
+@media screen and (width: 3760px) {
+  .header-icons {
+    gap: 26%;
+    margin-left: -30%;
+  }
+}
+
 @media screen and (width: 3706px) {
   .header-container {
     width: 40%;
@@ -146,10 +153,36 @@
   }
 }
 
+@media screen and (width: 2688px) {
+  .header-icons {
+    gap: 51%;
+    margin-left: -15%;
+  }
+}
+
+@media screen and (width: 2490px) {
+  .header-icons {
+    gap: 56%;
+    margin-left: -13%;
+  }
+}
+
 @media screen and (width: 2478px) {
   .header-icons {
     margin-left: -14%;
     gap: 58%;
+  }
+}
+
+@media screen and (width: 1344px) {
+  .header-icons {
+    padding-left: 3%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .header-icons {
+    margin-left: -5%;
   }
 }
 

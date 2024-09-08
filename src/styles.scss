@@ -90,10 +90,20 @@ h1, h2, p, h3 {
   left: 0;
   right: 0;
   bottom: 0;
+  width: 70%;
+  margin: auto;
 }
 
 .display-content {
   display: contents;
+}
+
+.txt-ctr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
 }
 
 /* MEDIA */

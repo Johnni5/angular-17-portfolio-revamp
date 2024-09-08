@@ -27,11 +27,84 @@
   }
 }
 
+@media screen and (width: 3760px) {
+  .atf-text {
+    margin-left: -1%;
+  }
+}
+
 @media screen and (min-width: 1201px) and (max-width: 1285px) {
   .first-line, .second-line {
     width: 108%;
     margin-left: 1%;
     font-size: 118px;
+  }
+}
+
+@media screen and (width: 1792px) {
+  .sep-line {
+    margin-left: 22%;
+    width: 120%;
+  }
+}
+
+@media screen and (width: 1405px) {
+  .fontSyne {
+    font-size: 105px;
+  }
+  .first-line, .second-line {
+    margin-left: 10%;
+  }
+  .vector-line {
+    width: 471px;
+  }
+  .sep-line {
+    margin-left: 22%;
+  }
+}
+
+@media screen and (width: 1344px) {
+  .fontSyne {
+    font-size: 105px;
+  }
+  .atf-text {
+    margin-left: 4%;
+  }
+  .sep-line {
+    margin-left: 17%;
+    margin-top: -1%;
+  }
+  .vector-line {
+    width: 501px;
+  }
+  .down-arrow {
+    margin-left: 82%;
+  }
+  .atf-email {
+    margin-left: 4%;
+    margin-top: -12%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .first-line, .second-line {
+    font-size: 98px;
+  }
+  .vector-line {
+    margin-right: 21px;
+    width: 431px;
+    border-bottom: 3px solid #000000;
+    margin-left: -13%;
+  }
+  .sep-line {
+    margin-top: -2%;
+  }
+  .atf-email {
+    margin-left: 1%;
+    margin-top: -13%;
+  }
+  .down-arrow {
+    margin-top: -56%;
   }
 }
 
@@ -89,7 +162,7 @@
     margin-right: 24%;
   } 
   .sep-line {
-    margin-left: 10%;
+    margin-left: 26%;
     width: 120%;
     margin-top: -4%;
   } 
@@ -133,16 +206,17 @@
 }
 
 @media screen and (max-width: 1000px) {
+ 
   .second-line {
     margin-left: -9%;
   }
   .sep-line {
-    margin-left: 3%;
+    margin-left: 19%;
     margin-top: -6%;
     width: 104%;
   }
   .vector-line {
-    width: 428px;
+    width: 30%;
     margin-right: 86px;
   }
   .down-arrow {
@@ -156,7 +230,7 @@
     margin-left: -5%;
   }
   .fontSyne {
-    font-size: 94px;
+    font-size: 84px;
   }
   .atf-text {
     display: flex;
@@ -216,7 +290,7 @@
   .first-line, .second-line {
     width: 108%;
     margin-left: 1%;
-    font-size: 88px;
+    font-size: 78px;
   }
 }
 
@@ -300,25 +374,7 @@
     font-size: 67px;
   }
   .sep-line {
-    margin-left: -4%;
+    margin-left: 11%;
   }
 }
 
-@media screen and (width: 633px) {
-  .atf-text h1 {
-    font-size: 64px;
-  }
-  .atf-name {
-    width: 60%;
-  }
-  .atf-email {
-    margin-top: -28%;
-    margin-left: -15%;
-  }
-  .sep-line {
-    margin-left: -7%;
-  }
-  .down-arrow {
-    margin-top: -61%;
-  }
-}

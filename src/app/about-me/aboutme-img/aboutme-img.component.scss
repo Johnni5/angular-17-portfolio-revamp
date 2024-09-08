@@ -39,6 +39,43 @@
 
 /* MEDIA */
 
+@media screen and (width: 1792px) {
+  .aboutme-img {
+    width: 533px;
+    height: 750px;
+    margin-top: -30%;
+    transform: translateZ(0);
+    margin-left: -14%;
+    scale: 0.9;
+  }
+}
+
+@media screen and (width: 1405px) {
+  .aboutme-img {
+    margin-top: -28%;
+    margin-left: -11%;
+  }
+}
+
+@media screen and (width: 1344px) {
+  .aboutme-img {
+    margin-top: -31%;
+    scale: 0.9;
+    margin-left: -19%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .aboutme-img {
+    width: 523px;
+    height: 730px;
+    margin-top: -26%;
+    transform: translateZ(0);
+    scale: 0.9;
+    margin-left: -12%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .aboutme-img {
     scale: 0.9;

@@ -24,6 +24,13 @@
   }
 }
 
+@media screen and (width: 3760px) {
+  .footer-container {
+    width: 69%;
+    margin-left: 17%;
+  }
+}
+
 @media screen and (width: 3706px) {
   .footer-container {
     width: 1340px;
@@ -33,6 +40,46 @@
 @media screen and (max-width: 3106px) {
   .footer-container {
     width: 70%;
+  }
+}
+
+@media screen and (width: 2688px) {
+  .footer-container {
+    width: 67%;
+    margin-left: 20%;
+  }
+}
+
+@media screen and (width: 2490px) {
+  .footer-container {
+    width: 65%;
+    margin-left: 18%;
+  }
+}
+
+@media screen and (width: 1792px) {
+  h2 {
+    margin-left: -16%;
+  }
+  .footer-container {
+    width: 68%;
+    margin-left: 17%;
+  }
+}
+
+@media screen and (width: 1344px) {
+  h2 {
+    margin-left: -23%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  h2 {
+    margin-left: -23%;
+  }
+  .footer-container {
+    width: 77%;
+    margin-left: 13%;
   }
 }
 
@@ -65,7 +112,7 @@
 
 @media screen and (max-width: 1100px) {
   h2 {
-    padding-left: 50px;
+    padding-left: 35%;
   }
   .footer-link-imprint {
     margin-left: 82%;
@@ -78,7 +125,7 @@
 
 @media screen and (max-width: 1000px) {
   h2 {
-    padding-left: 11%;
+    padding-left: 32%;
   }
   footer {
     margin-top: 10%;
@@ -187,7 +234,7 @@
   }
   .footer-container {
     width: 35em;
-    margin-left: 8%;
+    margin-left: 4%;
   }
 }
 
@@ -220,7 +267,7 @@
     width: 510px;
   }
   h2 {
-    padding-left: 5%;
+    padding-left: 30%;
   }
   h3 {
     font-size: 30px;

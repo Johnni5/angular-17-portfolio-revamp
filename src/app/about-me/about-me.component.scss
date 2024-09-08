@@ -24,6 +24,42 @@
   .aboutme-container {
     scale: 1.4;
     margin-top: 43%;
+    margin-left: 14%;
+  }
+}
+
+@media screen and (width: 2490px) {
+  .aboutme-container {
+    margin-left: 21%;
+  }
+}
+
+
+
+@media screen and (width: 1792px) {
+  .aboutme-container {
+    margin-left: 23%;
+  }
+}
+
+@media screen and (width: 1405px) {
+  .aboutme-container {
+    scale: 0.8;
+    margin-left: 12%;
+  }
+}
+
+@media screen and (width: 1344px) {
+  .aboutme-container {
+    margin-left: 14%;
+    scale: 0.9;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .aboutme-container {
+    margin-left: 13%;
+    width: 1155px;
   }
 }
 
@@ -115,7 +151,7 @@
 @media screen and (max-width: 700px) {
   .aboutme-container {
     width: 89%;
-    margin-left: 27%;
+    margin-left: 32%;
     scale: 0.7;
   }
 }

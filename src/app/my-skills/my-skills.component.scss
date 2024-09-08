@@ -25,7 +25,7 @@
 }
 
 .my-skills-txt {
-  margin-left: 9%;
+  // margin-left: 9%;
   // margin-left: auto;
   // margin-right: auto;
   margin-top: -3%;
@@ -34,6 +34,11 @@
   height: 98px;
   padding: 10px;
   // gap: 10px;
+  display: flex;
+  justify-content: center;
+  margin: auto !important;
+  text-align: center;
+  align-items: center;
 }
 
 .my-skills-table {

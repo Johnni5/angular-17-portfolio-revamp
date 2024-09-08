@@ -15,9 +15,37 @@
 @media screen and (width: 4000px) {
   .arrow-left-container {
     margin-left: 17%;
-    margin-top: 203px;
+    margin-top: 583px;
     scale: 1.4;
     margin-bottom: 326px;
+  }
+}
+
+@media screen and (width: 1792px) {
+  .arrow-left-container {
+    margin-top: 20px;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (width: 1405px) {
+  .arrow-left-container {
+    margin-top: -20px;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (width: 1344px) {
+  .arrow-left-container {
+    margin-top: -10px;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .arrow-left-container {
+    margin-top: -10px;
+    margin-left: -6%;
   }
 }
 
