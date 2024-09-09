@@ -9,7 +9,10 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './my-skills.component.html',
   styleUrls: [
     './my-skills.component.scss',
-    './my-skills.media.component.scss'
+    './my-skills.media.component.scss',
+    './my-skills.media2.component.scss',
+    './my-skills.media3.component.scss'
+
   ]
 })
 export class MySkillsComponent {

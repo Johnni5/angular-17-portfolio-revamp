@@ -13,7 +13,8 @@ import { ImprintComponent } from '../../imprint/imprint.component';
   templateUrl: './footer-content.component.html',
   styleUrls: [
     './footer-content.component.scss',
-    './footer-content.media.component.scss'
+    './footer-content.media.component.scss',
+    './footer-content.media2.component.scss'
   ]
 })
 export class FooterContentComponent {
