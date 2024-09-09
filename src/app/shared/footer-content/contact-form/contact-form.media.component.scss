@@ -127,10 +127,13 @@
     width: 30rem;
   }
   .contactform-submit-container input {
-    margin-left: 12%;
+    margin-left: 1%;
   }
   .contactform-policy-check {
     margin-left: 5%;
+  }
+  .form-submit-btn {
+    margin-left: 12% !important;
   }
 }
 
@@ -196,12 +199,12 @@
     margin-left: -39%;
   }
   .contactform-policy-check span {
-    width: 45%;
+    width: 52%;
     text-align: center;
     // margin-left: 12%;
   }
   .contactform-policy-check {
-    margin-left: 18%;
+    margin-left: -22%;
     width: 140%;
     display: flex;
     flex-direction: column;
