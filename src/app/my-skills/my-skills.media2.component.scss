@@ -42,7 +42,7 @@
 @media screen and (max-width: 1000px) {
   .my-skills-container {
     width: 79%;
-    left: 1%;
+    left: -6%;
   }  
   .my-skills-txt {
     /* left: 5%; */
@@ -70,6 +70,7 @@
   }
   .my-skills-container {
     width: 726px;
+    left: 5%;
   }
   .my-skills-table {
     left: -91px;
@@ -118,7 +119,7 @@
   }
   .my-skills-container {
     width: 691px;
-    left: 3%;
+    left: -5%;
   }
   .my-skills-table {
     left: -105px;
@@ -241,13 +242,19 @@
   }
   .my-skills-table {
     top: 68px;
-    left: 18%;
+    left: 9%;
   }
 }
 
 @media screen and (max-width: 550px) {
   .my-skills-table {
-    left: 105px;
+    left: 23%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 531px) {
+  .my-skills-table {
+    left: 13%;
   }
 }
 
@@ -290,6 +297,9 @@
   .skills-extra-contact {
     left: 5%;
     top: 79%;
+  }
+  .my-skills-table {
+    left: 23%;
   }
 }
 
