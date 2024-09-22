@@ -11,15 +11,28 @@
  
 }
 
-@media screen and (width: 1405px) {
+@media screen and (min-width: 1600px) {
+  .footer-form-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 1406px) {
+  .footer-form-container {
+    margin-left: -17%;
+  }
+}
+
+@media screen and (max-width: 1405px) {
   .footer-form-container {
     margin-left: -19%;
   }
 }
 
-@media screen and (width: 1344px) {
+@media screen and (max-width: 1344px) {
   .footer-form-container {
-    margin-left: -21%;
+    margin-left: -22%;
   }
   .form-submit-btn {
     margin-left: 13%;
@@ -266,7 +279,7 @@
     margin-left: 22%;
   }
   .footer-form-container {
-    width: 18.563rem;
+    width: 16rem;
   }
   .form-submit-btn {
     margin-left: 12%;

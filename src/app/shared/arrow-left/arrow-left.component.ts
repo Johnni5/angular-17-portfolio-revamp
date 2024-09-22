@@ -5,7 +5,10 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './arrow-left.component.html',
-  styleUrl: './arrow-left.component.scss'
+  styleUrls: [
+    './arrow-left.component.scss',
+    './arrow-left.component.media.scss'
+  ]
 })
 export class ArrowLeftComponent {
 

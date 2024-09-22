@@ -16,7 +16,11 @@
     scale: 1.4;
   }
   .skills-extra-contact {
-    left: 15%;
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 28%;
   }
   .my-skills-container {
     width: 45%;
@@ -117,7 +121,10 @@
   }
 }
 
-@media screen and (width: 1344px) {
+@media screen and (max-width: 1344px) {
+  main {
+    margin-top: 30%;
+  }
   .my-skills-txt {
     display: flex;
     justify-content: center;
@@ -148,6 +155,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  main {
+    margin-top: -3%;
+  }
   .my-skills-container {
     width: 865px;
     left: 2.5%;
@@ -181,6 +191,9 @@
 }
 
 @media screen and (max-width: 1150px) {
+  main {
+    margin-top: 0%;
+  }
   .my-skills-container {
     width: 824px;
     left: 3%;

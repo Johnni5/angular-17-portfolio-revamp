@@ -41,14 +41,20 @@
   }
 }
 
-@media screen and (width: 1792px) {
+@media screen and (max-width: 1792px) {
   .sep-line {
     margin-left: 22%;
     width: 120%;
   }
 }
 
-@media screen and (width: 1405px) {
+@media screen and (min-width: 1406px) and (max-width: 1791px) {
+  .sep-line {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 1405px) {
   .fontSyne {
     font-size: 105px;
   }
@@ -63,7 +69,7 @@
   }
 }
 
-@media screen and (width: 1344px) {
+@media screen and (max-width: 1344px) {
   .fontSyne {
     font-size: 105px;
   }
@@ -98,13 +104,14 @@
   }
   .sep-line {
     margin-top: -2%;
+    margin-left: 37%;
   }
   .atf-email {
     margin-left: 1%;
     margin-top: -13%;
   }
   .down-arrow {
-    margin-top: -56%;
+    margin-top: -41%;
   }
 }
 
@@ -120,7 +127,7 @@
     width: 90%;
   }
   .sep-line {
-    margin-left: 10%;
+    margin-left: 25%;
     width: 120%;
     margin-top: -4%;
   }
@@ -170,15 +177,15 @@
 
 @media screen and (max-width: 1100px) {
   .vector-line {
-    width: 411px;
+    width: 365px;
   }
   .sep-line {
-    margin-left: 9%;
+    margin-left: 25%;
     width: 93%;
     margin-top: -6%;
   }
   .atf-name {
-    margin-left: -1%;
+    margin-left: -22%;
   }
   .down-arrow {
     margin-top: -40%;
@@ -192,10 +199,12 @@
     flex-direction: column;
     // align-items: center;
     /* text-align: center; */
-    margin-left: 4%;
+    // margin-left: 4%;
     /* margin-right: auto; */
     margin-top: 201px;
     /* justify-content: center; */
+    scale: 0.95;
+    margin-left: auto;
   }
 }
 
@@ -328,11 +337,11 @@
     font-size: 36px;
     margin-left: -2%;
     // width: 90%;
-    width: 47%; // div - over length..?
+    width: 48%; // div - over length..?
   }
   .sep-line {
     top: 180px;
-    margin-left: -1%;
+    margin-left: 16%;
     width: 121%;
     margin-top: 1%;
   }

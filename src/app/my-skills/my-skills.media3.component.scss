@@ -65,6 +65,13 @@
 }
 
 @media screen and (max-width: 320px) {
+  ::ng-deep main>h2 {
+    width: unset;
+  }
+  :ng-deep div>main>div,
+  main, .main-container, main>div {
+    width: 90% !important;
+  }
   .my-skills-txt {
     left: 0%;
     top: 254%;

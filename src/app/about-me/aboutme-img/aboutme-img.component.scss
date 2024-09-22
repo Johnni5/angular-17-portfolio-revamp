@@ -22,7 +22,7 @@
   transition: width 0.3s ease, height 0.3s ease, box-shadow 0.3s ease;
   width: 580px;
   height: 580px;
-  margin-top: -9%;
+  margin-top: -30%;
 }
 
 .aboutme-img {
@@ -166,10 +166,10 @@
 
 @media screen and (max-width: 500px) {
   .aboutme-img-container img {
-    width: 380px;
+    width: 330px;
     height: auto;
-    margin-left: -14%;
-    margin-top: -56%;
+    margin-left: -11%;
+    margin-top: -37%;
   }
   .aboutme-img-container:hover::after {
     pointer-events: none;

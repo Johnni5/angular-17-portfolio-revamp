@@ -1,3 +1,5 @@
+@import '../../../styles.scss';
+
 .header-icons {
   display: flex;
   justify-content: space-evenly;
@@ -32,20 +34,22 @@
 }
 
 .header-container {
-  width: 75%;
-  // overflow: hidden;
-  // width: unset;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 99;
   background-color: #fffcf3;
-  margin-left: 11%;
+  height: 8%;
+  /* align-content: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 
 .header-language {
   display: flex;
   gap: 16px;
-  margin-left: -4%;
+  margin-left: -14%;
 }
 
 .header-language-img {
@@ -78,33 +82,34 @@
   background-size: cover;
 }
 
+
 @keyframes icon-animate {
   0% {                                 
-    background-image: url('./../../../assets/icons/overlay/ol-variant-1.png');
+    background-image: url('./../../../assets/icons/overlay/ol-variant-1.webp');
   }
 
   15% {
-    background-image: url('./../../../assets/icons/overlay/ol-variant-2.png');
+    background-image: url('./../../../assets/icons/overlay/ol-variant-2.webp');
   }
 
   35% {
-    background-image: url('./../../../assets/icons/overlay/ol-variant-3.png');
+    background-image: url('./../../../assets/icons/overlay/ol-variant-3.webp');
   }
 
   50% {
-    background-image: url('./../../../assets/icons/overlay/ol-variant-4.png');
+    background-image: url('./../../../assets/icons/overlay/ol-variant-4.webp');
   }
 
   65% {
-    background-image: url('./../../../assets/icons/overlay/ol-variant-5.png');
+    background-image: url('./../../../assets/icons/overlay/ol-variant-5.webp');
   }
 
   80% {
-    background-image: url('./../../../assets/icons/overlay/ol-variant-6.png');
+    background-image: url('./../../../assets/icons/overlay/ol-variant-6.webp');
   }
 
   100% {
-    background-image: url('./../../../assets/icons/overlay/ol-variant-7.png');
+    background-image: url('./../../../assets/icons/overlay/ol-variant-4.webp');
   }
 
 }
@@ -132,57 +137,97 @@
   }
 }
 
-@media screen and (width: 3760px) {
+@media screen and (min-width: 3761px) and (max-width: 3999px) {
+  .header-container {
+    margin-left: -20%;
+  }
   .header-icons {
-    gap: 26%;
-    margin-left: -30%;
+    gap: 19%;
+    margin-left: -4%;
+  }
+}
+
+@media screen and (max-width: 3760px) {
+  .header-icons {
+    gap: 19%;
+    margin-left: -24%;
   }
 }
 
 @media screen and (width: 3706px) {
   .header-container {
     width: 40%;
-    margin-left: 5%;
+    margin-left: -19%;
   }
 }
 
-@media screen and (width: 3106px) {
+@media screen and (max-width: 3106px) {
   .header-icons {
-    margin-left: -22%;
+    margin-left: -14%;
     gap: 40%;
   }
 }
 
-@media screen and (width: 2688px) {
+@media screen and (max-width: 2688px) {
   .header-icons {
     gap: 51%;
-    margin-left: -15%;
+    margin-left: -12%;
   }
 }
 
-@media screen and (width: 2490px) {
+@media screen and (max-width: 2506px) {
+  .header-icons {
+    gap: 41%;
+    margin-left: -12%;
+  }
+}
+
+@media screen and (max-width: 2490px) {
   .header-icons {
     gap: 56%;
     margin-left: -13%;
   }
 }
 
-@media screen and (width: 2478px) {
+@media screen and (max-width: 2478px) {
   .header-icons {
     margin-left: -14%;
     gap: 58%;
   }
 }
 
-@media screen and (width: 1344px) {
+@media screen and (min-width: 2201px) and (max-width: 2477px) {
   .header-icons {
-    padding-left: 3%;
+    margin-left: -6%;
+    gap: 60%;
+  }
+}
+
+@media screen and (min-width: 1345px) and (max-width: 2200px) {
+  .header-icons {
+    margin-left: 1%;
+    gap: 57%;
+  }
+}
+
+@media screen and (max-width: 1344px) {
+  .header-icons {
+    padding-left: 6%;
+    gap: 57%;
+  }
+}
+
+@media screen and (min-width: 1251px) and (max-width: 1300px) {
+  .header-icons {
+    margin-left: 1%;
+    gap: 57%;
   }
 }
 
 @media screen and (max-width: 1250px) {
   .header-icons {
-    margin-left: -5%;
+    margin-left: 6%;
+    gap: 65%;
   }
 }
 
@@ -193,6 +238,7 @@
   .header-language {
     margin-left: -14%;
   }
+ 
 }
 
 @media screen and (max-width: 1000px) {
@@ -203,12 +249,19 @@
     margin-left: -18%;
   }
   .header-icons {
-    gap: 91%;
+    gap: 81%;
     padding-left: 0%;
   }
 }
 
-@media screen and (width: 881px) {
+@media screen and (max-width: 900px) {
+  .header-icons {
+    gap: 92%;
+    margin-left: -5%;
+  }
+}
+
+@media screen and (max-width: 881px) {
   .header-container {
     margin-left: 0%;
     width: 100%;
@@ -348,7 +401,7 @@
 @media screen and (max-width: 320px) {
   .header-icons {
     width: 77%;
-    padding-left: 15%;
+    padding-left: 19%;
     gap: 40%;
   }
   .burger-btn {
@@ -356,8 +409,10 @@
   }
   .header-container {
     width: 100%;
-    height: 105px;
-    margin-top: -17%;
+    /* height: 22px; */
+    margin-top: -1%;
+    margin-left: -4%;
+    padding-top: 8%;
   }
   .header-language {
     gap: 6px;

@@ -60,6 +60,12 @@ p {
   }  
 }
 
+@media screen and (width: 2506px) {
+  .container {
+    margin-top: 5%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .container {
     margin-bottom: 144px;

@@ -1,32 +1,36 @@
-<section id="myskills" class="id-jumping-distance">
-  <span class="id-jumping-distance fontSyne my-skills-txt my-skills-title ">{{ 'MY_SKILLS_TITLE' | translate }}</span>
-  <!-- <img  class="my-skills-img" src="../../../assets/icons/my-skills-txt.png" alt=""> -->
-  <div  class="my-skills-container">
-    <div class="my-skills-table">
-      <div class="skills-row-1">
-        <img src="./assets/icons/it-skills/javscript.png" title="JavaScript" alt="">
-        <img src="./assets/icons/it-skills/ts.png" title="Typescript" alt="">
-        <img src="./assets/icons/it-skills/scrum.png" title="SCRUM" alt="">
-        <img src="./assets/icons/it-skills/python.png" title="Python" alt="">
-      </div>
-      <div class="skills-row-2">
-        <img src="./assets/icons/it-skills/design.png" title="Material Design" alt="">
-        <img src="./assets/icons/it-skills/html.png" title="HTML" alt="">
-        <img src="./assets/icons/it-skills/css.png" title="CSS" alt="">
-        <img src="./assets/icons/it-skills/git.png" title="Git/GitHub" alt="">
-      </div>
-      <div class="skills-row-3">
-        <img src="./assets/icons/it-skills/angular.png" title="Angular" alt="">
-        <img src="./assets/icons/it-skills/vue Js.png" title="VueJS" alt="">
-        <img src="./assets/icons/it-skills/firebase.png" title="Firebase" alt="">
-        <img src="./assets/icons/it-skills/linux.png" title="Linux" alt="">
-      </div>
+<div id="myskills"></div>
+<br>
+<br>
+<br>
+<main>
+    <h2 class="" >{{ "MY_SKILLS_TITLE" | translate }}</h2>
+    <div  
+        class="main-container" >
+        <div id="{{ skill.path }}" class="skill" *ngFor="let skill of skills">
+            <div class="noselect">
+                <img src="../../assets/icons/it-skills/{{ skill.path }}.svg" alt="{{ skill.name }}">
+            </div>
+            <h6>{{ skill.name }}</h6>
+        </div>
+        <div class="skills-extra-contact">
+            <img title="What do You need?" src="./assets/icons/new-learning.png" alt="">
+            <p>{{ 'WHAT_DO_YOU_NEED' | translate }}  &nbsp;</p> 
+            <a href='mailto:kontakt@johanneskaeppler.com' class="fontGreen" title="write me an email!">{{ 'CONTACT_ME' | translate }}</a>
+            <p>&nbsp; {{ 'READY_LEARN' | translate }}</p>
+          </div>
     </div>
-    <div class="skills-extra-contact">
-      <img title="What do You need?" src="./assets/icons/new-learning.png" alt="">
-      <p>{{ 'WHAT_DO_YOU_NEED' | translate }}  &nbsp;</p> 
-      <a href="mailto:kontakt@johanneskaeppler.com" class="fontGreen" title="write me an email!">{{ 'CONTACT_ME' | translate }}</a>
-      <p>&nbsp; {{ 'READY_LEARN' | translate }}</p>
+</main>
+
+<!--
+<main>
+    <h2 [ngClass]="{'my-skills-de': lang === 'de'}">{{ "my-skills" | translate }}</h2>
+    <div>
+        <div (click)="skillAni(skill.path)" id="{{ skill.path }}" class="skill" *ngFor="let skill of skills">
+            <div class="noselect">
+                <img src="../../../assets/img/icons/{{ skill.path }}.svg" alt="{{ skill.name }}">
+            </div>
+            <h6>{{ skill.name }}</h6>
+        </div>
     </div>
-  </div>
-</section>
+</main>
+-->

@@ -51,16 +51,16 @@
   "PRIVACY_POLICY_TEXT": "<div><h1>Privacy Policy</h1><br/><br/><h2>General Information</h2><br/><p>Thank you for visiting my portfolio website johannes-kaeppler.dev. The protection of your personal data is very important to me. I process your data solely based on legal regulations (GDPR, TMG). In this privacy policy, I inform you about the most important aspects of data processing on my website.</p><br/><h2>No Data Storage and No Cookies</h2><br/><p>No personal data about you is stored on my website. Furthermore, I do not use cookies or other tracking technologies to collect information about your use of my website.</p><br/><h2>Contact Form</h2><br/><p>My website contains a contact form through which you can reach me directly. The following personal data is requested:</p><br/><ul><li>Name</li><li>Email Address</li><li>Your Message</li></ul><br/><p>This information is used solely for the purpose of processing your inquiry and is sent directly to my email address. No data is stored on my website’s server or in a database. After the communication is concluded, the data will be deleted immediately, unless there are legal retention periods.</p><br/><h2>Links to External Sites</h2><br/><p>In my portfolio section, you will find links to external websites, including:</p><br/><ul><li>My GitHub profile</li><li>Live previews of my projects hosted on a server rented by me from Namecheap.com</li></ul><br/><p>Please note that these external websites have their own privacy policies, which I do not influence.</p><p>The privacy policy of Namecheap.com is available.</p><br/><h2>Your Rights</h2><br/><p>You have the right to access, correct, delete, restrict processing, data portability, withdraw consent, and object to the processing of your personal data. If you believe that the processing of your data violates data protection law or that your data protection rights have otherwise been infringed, you can file a complaint with the competent supervisory authority.</p><br/><h2>Contact</h2><br/><p>If you have any questions about data protection on my website, you can contact me at any time at the following email address:</p><br/><p>Johannes Käppler</p><a href=\"mailto:admin@johannes-kaeppler.dev\">admin&#64;johannes-kaeppler.dev</a><br/></div>",
 
   "PORTFOLIO_TITLE": "Portfolio",
-  "PORTFOLIO_SUB_TITLE": "Explore a selection of my work here -\nInteract with projects to see my skills in action.",
+  "portfolio-p": "Explore a selection of my work here -\nInteract with projects to see my skills in action.",
 
-  "PROJECT_JOIN_DESCRI": "Task manager inspired by the Kanban System. Create and\norganize tasks using drag and drop functions, assign users and\ncategories.",
+  "join": "Task manager inspired by the Kanban System. Create and\norganize tasks using drag and drop functions, assign users and\ncategories.",
 
-  "PROJECT_POKE_DESCRI": "Based on the PokéAPI, a simple library that provides and catalogues pokemon information.",
+  "pokedex": "Based on the PokéAPI, a simple library that provides and catalogues pokemon information.",
 
-  "PROJECT_ROBO_DESCRI": "Robot-Rolodeck is a React-based application that allows users to create and manage a virtual robot collection.",
+  "rolodeck": "Robot-Rolodeck is a React-based application that allows users to create and manage a virtual robot collection.",
 
-  "PROJECT_POLLO_DESCRI": "A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and spicy bottles to fight against the mad boss chicken.",
+  "pollo": "A simple Jump-and-Run game based on an object-oriented approach. Help Pepe to find coins and spicy bottles to fight against the mad boss chicken.",
 
-  "PROJECT_KANBAN_DESCRI": "A simple Kanban Board. Create and organize tasks. Done with Angular 18."
+  "kanban": "A simple Kanban Board. Create and organize tasks. Done with Angular 18."
 
 }

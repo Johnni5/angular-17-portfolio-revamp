@@ -1,4 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+$black: #000;
+// $orange: #F90;
+$orange: #00bc8f;
+$cream: #FFFCF3;
+$red: #E61C40;
+// $green: #70E61C;
+$green: #00bc8f;
+$white: #fff;
+$blue: #007AFF;
+$yellow: #FFEC00;
+
 @font-face {
   font-family: 'Syne';
   src: local('Syne'),
@@ -35,7 +47,11 @@ html {
 }
 
 a {
+  color: black;
   text-decoration: none;
+  >visited {
+    color: black !important;
+  }
 }
 
 h1, h2, p, h3 {
@@ -106,6 +122,24 @@ h1, h2, p, h3 {
   margin: auto;
 }
 
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  /* vertical scrollbar */
+  height: 12px;
+  /* horizontal scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #c8e9c3e3;
+}
+
+*::-webkit-scrollbar-thumb {
+  // background: #88e782;
+  background: #39b731;
+  border-radius: 40%;
+}
+
 /* MEDIA */
 
 @media screen and (width: 8000px) {
@@ -116,11 +150,21 @@ h1, h2, p, h3 {
   }
 }
 
-@media screen and (width: 4000px) {
+@media screen and (width: 3760px) {
   .footer-imprint {
-    // scale: 1.5;
-    // padding-bottom: 166px;
-    
+    width: 40%;
+  }
+}
+
+@media screen and (width: 2506px) {
+  .footer-imprint {
+    width: 60%;
+  }
+}
+
+@media screen and (width: 375px) {
+  .footer-imprint {
+    padding-left: 12%;
   }
   
 }
@@ -129,9 +173,18 @@ h1, h2, p, h3 {
   
 }
 
-@media screen and (width: 375px) {
+@media screen and (max-width: 320px) {
   .footer-imprint {
-    padding-left: 12%;
+    background-color: black;
+    position: fixed;
+    /* left: 0; */
+    /* right: 0; */
+    /* bottom: 0; */
+    width: 100%;
+    margin: auto;
+    height: 12%;
+    align-items: end;
+    display: flex;
   }
   
 }

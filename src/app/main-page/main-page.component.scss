@@ -1,3 +1,5 @@
+@import "../../styles.scss";
+
 body {
   // width: 1440px;
   // height: 7208px;
@@ -73,8 +75,10 @@ section {
   left: 120px;
   display: flex;
   align-items: center;
-  margin-left: 24%;
+  margin-left: 23%;
+  // margin-left: 9%;
   width: fit-content;
+  
 }
 
 .vector-line {

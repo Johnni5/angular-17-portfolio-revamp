@@ -67,15 +67,15 @@
   }
 }
 
-@media screen and (width: 1344px) {
+@media screen and (max-width: 1344px) {
   h2 {
-    margin-left: -23%;
+    margin-left: 1%;
   }
 }
 
 @media screen and (max-width: 1250px) {
   h2 {
-    margin-left: -23%;
+    margin-left: -3%;
   }
   .footer-container {
     width: 77%;
@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 1200px) { 
   h2 {
-    margin-left: -28%;
+    margin-left: -3%;
   }
   footer {
     width: 810px;

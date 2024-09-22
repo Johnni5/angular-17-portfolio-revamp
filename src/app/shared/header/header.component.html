@@ -1,15 +1,15 @@
 <section class="header-container">
   <div class="header-icons">
-    <a href="">
+    <a href="/" rel="noopener noreferrer nofollow">
       <img class="header-img" src="./assets/icons/jk_logo.png">
     </a>
 
     <div class="header-language">
       <div class="header-language-img" name="" id="">
-        <img class="language-img" src="./assets/icons/de.png" alt="deutsch - german" (click)="changeLanguage('de')">
+        <img class="language-img" src="./assets/icons/de.webp" alt="deutsch - german" (click)="changeLanguage('de')">
       </div>
       <div class="header-language-img" name="" id="">
-        <img class="language-img" src="./assets/icons/en.png" alt="englisch" (click)="changeLanguage('en')">
+        <img class="language-img" src="./assets/icons/en.webp" alt="englisch" (click)="changeLanguage('en')">
       </div>
       <div  (click)="toggleOverlay()" [ngClass]="{'burger-btn-animate': menuVisible}" class="burger-btn-img" [class.burger-btn]="menuVisible"></div>
 
@@ -24,15 +24,15 @@
 
       <div class="d-none ol-link-container" >
         <div class="ol-link-row">
-          <a class="fontSyne" href="#aboutme" (click)="toggleOverlay()">{{ 'ABOUTME_OL_LINK' | translate }}</a>
+          <a class="menu-a fontSyne" href="#aboutme" rel="noopener noreferrer nofollow" (click)="toggleOverlay()">{{ 'ABOUTME_OL_LINK' | translate }}</a>
           <div class="ol-start-angle"></div>
         </div>
         <div class="ol-link-row">
-          <a class="fontSyne" href="#myskills" (click)="toggleOverlay()">{{ 'MYSKILLS_OL_LINK' | translate }}</a>
+          <a class="menu-a fontSyne" href="#myskills" rel="noopener noreferrer nofollow" (click)="toggleOverlay()">{{ 'MYSKILLS_OL_LINK' | translate }}</a>
           <div class="ol-start-angle"></div>
         </div>
         <div class="ol-link-row">
-          <a class="fontSyne" href="#portfolio" (click)="toggleOverlay()">{{ 'PORTFOLIO_OL_LINK' | translate }}</a>
+          <a class="menu-a fontSyne" href="#portfolio" rel="noopener noreferrer nofollow" (click)="toggleOverlay()">{{ 'PORTFOLIO_OL_LINK' | translate }}</a>
           <div class="ol-start-angle"></div>
         </div>
       </div>

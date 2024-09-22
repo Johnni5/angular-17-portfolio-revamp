@@ -1,3 +1,9 @@
+@media screen and (min-width: 651px) and (max-width: 699px) {
+  .atf-name {
+    width: 49%;
+  }
+}
+
 @media screen and (max-width: 650px) {
  
   .atf-name {
@@ -46,12 +52,11 @@
   }
   .sep-line {
     width: 112%;
-    margin-left: -8%;
+    margin-left: 6%;
     margin-top: 1%;
   }
   .vector-line {
-    // width: 43%;
-    width: 56%; // due to o ver lenbgth..?;
+    width: 43%;
     margin-right: 13px;
   }
   .down-arrow {
@@ -80,7 +85,7 @@
   }
   .sep-line {
     width: 132%;
-    margin-left: -10%;
+    margin-left: 8%;
   }
 }
 
@@ -89,7 +94,7 @@
     font-size: 45px;
   }
   .sep-line {
-    margin-left: 8%;
+    margin-left: 17%;
     width: 162%;
   }
   .down-arrow {
@@ -103,7 +108,7 @@
     width: 92%;
   }
   .vector-line {
-    width: 34%;
+    width: 24%;
   }
 }
 
@@ -232,7 +237,7 @@
     font-size: 41px !important;
   }
   .sep-line {
-    margin-left: 2%;
+    margin-left: 27%;
   }
   .vector-line {
     width: 20%;

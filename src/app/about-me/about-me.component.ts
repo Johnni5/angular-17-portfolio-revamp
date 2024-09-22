@@ -7,7 +7,10 @@ import { AboutmeImgComponent } from "./aboutme-img/aboutme-img.component";
   standalone: true,
   imports: [AboutmeDataComponent, AboutmeImgComponent],
   templateUrl: './about-me.component.html',
-  styleUrl: './about-me.component.scss'
+  styleUrls: [
+      './about-me.component.scss',
+      './about-me.component.media.scss'
+  ]
 })
 export class AboutMeComponent {
 
