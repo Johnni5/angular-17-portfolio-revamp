@@ -117,8 +117,11 @@
     font-size: 41px;
   }
   .sep-line {
-    margin-left: -16%;
+    margin-left: 9%;
     width: 133%;
+  }
+  .vector-line {
+    width: 26%;
   }
   .down-arrow {
     margin-top: -85%;
@@ -144,11 +147,11 @@
     font-size: 24px;
   }
   .sep-line {
-    margin-top: 5%;
-    margin-left: -25%;
+    margin-top: 1%;
+    margin-left: 0%;
   }
   .vector-line {
-    width: 60%;
+    width: 40%;
   }
   .down-arrow {
     margin-top: -80%;
@@ -194,6 +197,13 @@
     margin-top: -42%;
     margin-left: -34%;
   }
+  .sep-line {
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+  .vector-line {
+    width: 26%;
+  }
 
 }
 
@@ -202,9 +212,9 @@
     font-size: 33px;
   }
   .atf-name {
-    width: 92%;
-    margin-top: 14%;
-    margin-left: -52%;
+    width: 42%;
+    margin-top: 10%;
+    margin-left: 8%;
   }
   .atf-email {
     margin-top: -49%;
@@ -217,6 +227,9 @@
   }
   .down-arrow {
     margin-top: -94%;
+  }
+  .vector-line {
+    display: none;
   }
 }
 

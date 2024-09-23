@@ -38,6 +38,12 @@
 }
 
 @media screen and (width: 333px) {
+  main {
+    margin-top: 1%;
+  }
+  ::ng-deep main>h2 {
+    font-size: 2.2rem !important;
+  }
   .skills-row-1 img, .skills-row-2 img, .skills-row-3 img {
     width: 20%;
   }

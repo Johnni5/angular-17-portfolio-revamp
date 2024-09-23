@@ -5,7 +5,10 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './aboutme-img.component.html',
-  styleUrl: './aboutme-img.component.scss'
+  styleUrls: [
+    './aboutme-img.component.scss',
+    './aboutme-img.component.media.scss'
+  ]
 })
 export class AboutmeImgComponent {
 

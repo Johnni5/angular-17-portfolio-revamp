@@ -133,14 +133,14 @@
 
 @media screen and (max-width: 400px) {
   h2 {
-    margin-left: 1%;
+    margin-left: -9%;
   }
   h3, p {
     margin-left: 9% !important;
   }
   .footer-container {
     width: 25em;
-    height: 1281px;
+    height: 1211px;
     margin: auto;
   }
   .footer-link-imprint {
@@ -157,7 +157,7 @@
 
 @media screen and (width: 375px) {
   h2 {
-    margin-left: -1%;
+    margin-left: -12%;
     padding-top: 86px;
   }
   h3 {
@@ -180,13 +180,13 @@
 @media screen and (width: 333px) {
   h2 {
     font-size: 49px;
-    margin-left: 2%;
+    margin-left: -8%;
   }
   h3, p {
-    margin-left: 0.5%;
+    margin-left: 2% !important;
   }
   .footer-container {
-    height: 1231px;
+    height: 1211px;
     width: 20.9em;
     margin: auto;
   }

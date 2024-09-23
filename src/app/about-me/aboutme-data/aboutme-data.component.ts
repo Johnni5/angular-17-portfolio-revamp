@@ -6,7 +6,10 @@ import { TranslateModule } from '@ngx-translate/core';
   standalone: true,
   imports: [TranslateModule],
   templateUrl: './aboutme-data.component.html',
-  styleUrl: './aboutme-data.component.scss'
+  styleUrls: [
+    './aboutme-data.component.scss',
+    './aboutme-data.component.media.scss'
+  ]
 })
 export class AboutmeDataComponent {
 
