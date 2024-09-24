@@ -316,7 +316,7 @@
     top: 100px;
   }
   .skills-extra-contact {
-    left: 4%;
+    padding-bottom: 12%;
   }
 }
 
@@ -400,6 +400,12 @@
 }
 
 @media screen and (max-width: 600px) {
+  ::ng-deep {
+    .main-container {
+      padding-bottom: 50%;
+    }
+  }
+ 
   .my-skills-txt {
     left: 2%;
     top: 294%;
@@ -429,6 +435,8 @@
     left: 3%;
     top: 73%;
     gap: 8px;
+    padding-bottom: 22%;
+    padding-top: 12%;
   }
   .my-skills-table {
     top: 68px;
@@ -440,6 +448,15 @@
   .my-skills-table {
     left: 23%;
   }
+  ::ng-deep {
+    .main-container {
+      padding-bottom: 35% !important;
+    }
+  }
+  .skills-extra-contact {
+    margin-top: 20%;
+  }
+  
 }
 
 @media screen and (min-width: 501px) and (max-width: 531px) {

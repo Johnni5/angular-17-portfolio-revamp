@@ -113,6 +113,9 @@
   .footer-form-container {
     margin-left: -42%;
   }
+  .contactform-policy-check {
+    margin-left: -1%;
+  }
 }
 
 @media screen and (width: 881px) {
@@ -125,12 +128,29 @@
   .footer-form-container {
     margin-left: -46%;
   }
+  .contactform-policy-check {
+    margin-left: -2%;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .footer-form-container {
     width: 33.563rem;
     margin-left: -41%;
+  }
+  .contactform-policy-check {
+    margin-left: -12%;
+    width: 120%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contactform-policy-check {
+    margin-left: -33%;
+    width: 120%;
+    >span {
+      margin-right: -15%;
+    }
   }
 }
 
@@ -158,8 +178,13 @@
 
 @media screen and (max-width: 650px) {
   .contactform-policy-check {
-    margin-left: -15%;
-    width: 120%;
+    margin-left: -34%;
+    width: 140%;
+    >span {
+      margin-right: -13%;
+      width: 45%;
+      margin-left: 1%;
+    }
   }
   .footer-form-container {
     margin-left: -38%;
@@ -186,7 +211,11 @@
     margin-left: -1%;
   }
   .contactform-policy-check {
-    margin-left: 14%;
+    margin-left: -34%;
+    width: 150%;
+  }
+  .contactform-policy-check span {
+    margin-right: -12%;
   }
 
   
@@ -204,6 +233,7 @@
     text-align: center;
     width: 160%;
     height: 100%;
+    margin-left: -31%;
   }
 }
 

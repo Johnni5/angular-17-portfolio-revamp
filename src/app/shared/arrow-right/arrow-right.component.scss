@@ -79,28 +79,37 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .arrow-right-container {
+    margin-left: 10%;
+    margin-top: 69%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .arrow-right-container {
-    margin-left: 5%;
+    margin-left: 9%;
   }
 }
 
 @media screen and (max-width: 700px) {
   .arrow-right-container {
     margin-top: 0%;
+    margin-left: 9%;
   }
 }
 
 @media screen and (max-width: 650px) {
   .arrow-right-container {
     margin-top: 0%;
+    margin-left: 8%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .arrow-right-container {
     margin-top: -2%;
-    margin-left: 4%;
+    margin-left: 8%;
   }
 }
 

@@ -75,6 +75,12 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .arrow-left-2-container {
+    margin-top: -23%;
+  }
+}
+
 @media screen and (max-width: 850px) {
   .arrow-left-2-container {
     margin-left: 66%;
@@ -122,7 +128,7 @@
 @media screen and (max-width: 600px) {
   .arrow-left-2-container {
     margin-left: 50%;
-    margin-top: 98%;
+    margin-top: -37%;
   }
   
 }
@@ -130,7 +136,7 @@
 @media screen and (max-width: 550px) {
   .arrow-left-2-container {
     margin-left: 50%;
-    margin-top: 118%;
+    margin-top: -32%;
   }
 }
 

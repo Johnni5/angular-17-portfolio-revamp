@@ -67,6 +67,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 900px) {
+  footer {
+    gap: 49%;
+  }
+}
+
 @media screen and (width: 881px) {
   footer {
     gap: 2%;
