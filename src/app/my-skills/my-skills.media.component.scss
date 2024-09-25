@@ -134,6 +134,12 @@
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .main-container {
+    margin-top: -2%;
+  }
+}
+
 @media screen and (max-width: 1250px) {
   .my-skills-txt {
     margin: auto;
@@ -155,8 +161,17 @@
 }
 
 @media screen and (max-width: 1200px) {
-  main {
-    margin-top: -3%;
+  ::ng-deep {
+    main {
+      margin-top: -3%;
+    }
+    app-project {
+      margin-left: 17%;
+    }
+  }
+  
+  .main-container {
+    margin-top: -2%;
   }
   .my-skills-container {
     width: 865px;
@@ -193,6 +208,9 @@
 @media screen and (max-width: 1150px) {
   main {
     margin-top: 0%;
+  }
+  .main-container {
+    margin-top: -2%;
   }
   .my-skills-container {
     width: 824px;

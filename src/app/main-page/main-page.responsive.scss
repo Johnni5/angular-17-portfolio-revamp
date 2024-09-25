@@ -92,6 +92,12 @@
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .atf-text {
+    margin-left: 0%;
+  }
+}
+
 @media screen and (max-width: 1250px) {
   .first-line, .second-line {
     font-size: 98px;
@@ -127,12 +133,12 @@
     width: 90%;
   }
   .sep-line {
-    margin-left: 25%;
+    margin-left: 33%;
     width: 120%;
     margin-top: -4%;
   }
   .vector-line {
-    width: 33%;
+    width: 32%;
   }
   .down-arrow {
     left: 85%;
@@ -165,11 +171,11 @@
     margin-left: 80%;
   }
   .vector-line {
-    width: 33%;
+    width: 32%;
     margin-right: 24%;
   } 
   .sep-line {
-    margin-left: 26%;
+    margin-left: 31%;
     width: 120%;
     margin-top: -4%;
   } 
@@ -262,7 +268,7 @@
     margin-right: 70px;
   }
   .first-line {
-    margin-bottom: -6%;
+    margin-bottom: -1%;
   }
   .second-line {
     margin-left: auto;
@@ -335,8 +341,11 @@
     width: unset;
     height: 87%;
   }
+  .first-line {
+    margin-bottom: 8%;
+  }
   .second-line {
-    margin-left: -1%;
+    margin-left: 1%;
   }
   .fontSyne {
     font-size: 72px;

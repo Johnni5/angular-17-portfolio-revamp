@@ -44,9 +44,21 @@
   }
 }
 
+@media screen and (max-width: 1300px) {
+  
+}
+
 @media screen and (max-width: 1250px) {
-  ::ng-deep main {
-    margin-left: -15%;
+  ::ng-deep {
+    main {
+      margin-left: -15%;
+    }
+    app-project {
+      margin-left: 10%;
+    }
+  } 
+  .reverse span {
+    margin-left: 22%;
   }
 }
 
@@ -96,6 +108,22 @@
   .hover-frame {
     width: 32.75rem !important;
     height: 22.5625rem !important;
+  }
+  .reverse span {
+    margin-left: 19%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  ::ng-deep {
+    main {
+
+    }
+  }
+  .reverse {
+    >span {
+      margin-left: 20%;
+    }
   }
 }
 
