@@ -272,6 +272,13 @@
   }
 }
 
+@media screen and (max-width: 850px) {
+  .header-icons {
+    gap: 92%;
+    margin-left: -5%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .burger-btn {
     left: 1px;

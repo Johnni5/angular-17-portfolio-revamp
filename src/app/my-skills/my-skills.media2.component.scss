@@ -141,6 +141,12 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .main-container {
+    margin-top: -3%;
+  }
+  h2 {
+    width: max-content;
+  }
   .my-skills-container {
     width: 79%;
     left: -6%;
