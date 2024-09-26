@@ -48,13 +48,13 @@ export class PortfoliodataService {
       link: 'https://johannes-kaeppler.dev/kanban/index.html',
       github: 'https://github.com/Johnni5/angular-18-kanban-board',
     },
-    {
-      name: 'Chat App',
-      path: 'chatapp',
-      number: '06',
-      tools: 'React | JavaScript | Firebase | SCSS',
-      link: '',
-      github: '',
-    },
+    // {
+    //   name: 'Chat App',
+    //   path: 'chatapp',
+    //   number: '06',
+    //   tools: 'React | JavaScript | Firebase | SCSS',
+    //   link: '',
+    //   github: '',
+    // },
   ];
 }

@@ -11,6 +11,8 @@ import { RouterLink, RouterModule } from '@angular/router';
   templateUrl: './header.component.html',
   styleUrls: [
     './header.component.scss', 
+    './header.component.media1.scss', 
+    './header.component.media2.scss', 
     './ol-media.component.scss', 
     './ol-style.component.scss'
   ]

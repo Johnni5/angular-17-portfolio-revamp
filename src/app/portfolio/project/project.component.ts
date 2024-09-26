@@ -9,7 +9,8 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './project.component.html',
   styleUrls: [
     './project.component.scss',
-    './project.component.media.scss'
+    './project.component.media.scss',
+    './project.component.media2.scss'
   ]
 })
 export class ProjectComponent {

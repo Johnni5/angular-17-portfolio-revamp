@@ -1,0 +1,146 @@
+/* MEDIA */
+
+@media screen and (width: 8000px) {
+  .header-container {
+    width: 18%;
+    margin-left: 3%;
+  }
+}
+
+@media screen and (width: 4000px) {
+  .header-img {
+    width: 176px;
+  }
+  .header-icons {
+    gap: 26%;
+    scale: 1.8;
+  }
+  .header-container {
+    margin-left: 0%;
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 3761px) and (max-width: 3999px) {
+  .header-container {
+    margin-left: -20%;
+  }
+  .header-icons {
+    gap: 19%;
+    margin-left: -4%;
+  }
+}
+
+@media screen and (max-width: 3760px) {
+  .header-icons {
+    gap: 19%;
+    margin-left: -24%;
+  }
+}
+
+@media screen and (width: 3706px) {
+  .header-container {
+    width: 40%;
+    margin-left: -19%;
+  }
+}
+
+@media screen and (max-width: 3106px) {
+  .header-icons {
+    margin-left: -14%;
+    gap: 40%;
+  }
+}
+
+@media screen and (max-width: 2688px) {
+  .header-icons {
+    gap: 51%;
+    margin-left: -12%;
+  }
+}
+
+@media screen and (max-width: 2506px) {
+  .header-icons {
+    gap: 41%;
+    margin-left: -12%;
+  }
+}
+
+@media screen and (max-width: 2490px) {
+  .header-icons {
+    gap: 56%;
+    margin-left: -13%;
+  }
+}
+
+@media screen and (max-width: 2478px) {
+  .header-icons {
+    margin-left: -14%;
+    gap: 58%;
+  }
+}
+
+@media screen and (min-width: 2201px) and (max-width: 2477px) {
+  .header-icons {
+    margin-left: -6%;
+    gap: 60%;
+  }
+}
+
+@media screen and (min-width: 1345px) and (max-width: 2200px) {
+  .header-icons {
+    margin-left: 1%;
+    gap: 57%;
+  }
+}
+
+@media screen and (max-width: 1344px) {
+  .header-icons {
+    padding-left: 6%;
+    gap: 57%;
+  }
+}
+
+@media screen and (min-width: 1251px) and (max-width: 1300px) {
+  .header-icons {
+    margin-left: 1%;
+    gap: 57%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .header-icons {
+    margin-left: 6%;
+    gap: 65%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .burger-btn {
+    left: 2%;
+  }
+  .header-language {
+    margin-left: -14%;
+  }
+ 
+}
+
+@media screen and (max-width: 1000px) {
+  .burger-btn {
+    left: 5px;
+  }  
+  .header-language {
+    margin-left: -18%;
+  }
+  .header-icons {
+    gap: 81%;
+    padding-left: 0%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header-icons {
+    gap: 82%;
+    margin-left: 5%;
+  }
+}

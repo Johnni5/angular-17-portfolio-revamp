@@ -162,15 +162,29 @@ h1, h2, p, h3 {
   }
 }
 
+@media screen and (min-width: 376px) and (max-width: 750px) {
+  .footer-imprint {
+    width: 100%;
+  }
+}
+
 @media screen and (width: 375px) {
   .footer-imprint {
     padding-left: 12%;
+    width: 100%;
   }
-  
 }
 
-@media screen and (width: 333px) {
-  
+@media screen and (min-width: 334px) and (max-width: 374px) {
+  .footer-imprint {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 333px) {
+  .footer-imprint {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 320px) {

@@ -15,7 +15,8 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   styleUrls: [
     './my-skills.component.scss',
     './my-skills.media.component.scss',
-    './my-skills.media2.component.scss'
+    './my-skills.media2.component.scss',
+    './my-skills.media4.component.scss',
   ] 
 })
 

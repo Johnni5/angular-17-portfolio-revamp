@@ -1,6 +1,6 @@
 <main [class.backwards]="index % 2 == 1">
     <!-- <div  *ngFor="let project of projectlist; let index = index"> -->
-        <span>{{ project.number }}/06</span>
+        <span>{{ project.number }}/05</span>
         <div class="thumbnail noselect">
             <div class="hover-frame">
                 <img src="../../../../assets/arrows/icon/arrow-icon.svg">
@@ -8,7 +8,7 @@
             <img class="project-img" src="./assets/icons/projects/{{ project.path }}.webp" alt="{{ project.name }}">
         </div>
         <div class="reverse" [ngStyle]="{'align-items': index % 2 == 0 ? 'flex-end' : 'flex-start'}">
-            <span>{{ project.number }}/06</span>
+            <span>{{ project.number }}/05</span>
             <div class="description">
                 <div>
                     <h3>{{ project.name }}</h3>
